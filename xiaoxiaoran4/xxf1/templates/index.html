@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生后台管理首页</title>
+</head>
+
+<body>
+
+    <table border="1" style="margin:100px auto; line-height:30px">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+        </tr>
+        <?php foreach($students as $k => $v):  ?>
+        <tr>
+            <td><?php echo $k+1;?></td>
+            <td><?php echo $v['1'];?></td>
+            <td><?php echo $v['2'];?></td>
+            <td><?php echo $v['3'];?></td>
+            <td><?php echo $v['4'];?></td>
+            <td><?php echo $v['5'];?></td>
+            <td><a href="">变</a></td>
+            <td><a href="">删</a></td>
+
+        </tr>
+        <?php endforeach;?>
+    </table>
+
+</body>
+
+</html>

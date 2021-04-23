@@ -1,0 +1,49 @@
+{config_load file="site.conf"}
+{config_load file="style.conf" section=$hobby}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cfcc</title>
+    <style>
+        div {
+            color: {#clr#};
+        }
+    </style>
+</head>
+
+<body>
+    <h2>xiaoxiaoran</h2>
+    <p>
+        {$addr}<br>
+        {$name}
+    </p>
+    <h2>保留变量使用</h2>
+    <div>{$get}={$smarty.get.name}</div>
+    <div>{$smarty.version}</div>
+    <h2>配置变量使用</h2>
+    <div>{#network#}-->{#polise#}</div>
+    <div>{literal}包含的不会解析{/literal}</div>
+    <h2>数组的使用</h2>
+    <div>{$fruit[2]}--{$fruit.3}--{$fruitt.q1}</div>
+    <div>
+        {foreach $fruit as $k => $v}
+        {$k}=>{$v}<br>
+        {foreachelse} 数组没有元素...
+        {/foreach}
+    </div>
+    <h2>分支的使用</h2>
+    <div>
+        {if $week==1} this->is->1
+        {elseif $week==2} this->is->2
+        {elseif $week==4} this->is->3
+        {else}666
+        {/if}
+    </div>
+
+</body>
+
+</html>

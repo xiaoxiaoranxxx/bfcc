@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cfcc</title>
+    <style>
+        h2 {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>复选框</h2>
+    <div>
+        {html_checkboxes name="hobby" options=$outval selected=$seled separator="&nbsp;" label_ids=true}
+    </div>
+    <h2>下拉列表</h2>
+    <div>
+        {html_options name="city" options=$area selected=$seledd}
+    </div>
+    <h2>布局/继承</h2><br>
+    <h2>变量修饰器</h2>
+    <div>
+        {$smarty.now}<br>
+        {$smarty.now|date_format:"%Y-%m-%d %H:%M:%S"}<br>
+        {$add|default:'xiaoxiaoran'}<br>
+        {$bai|escape}<br>
+    </div>
+    
+
+</body>
+
+</html>

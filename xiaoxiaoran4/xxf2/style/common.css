@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+table,
+td,
+th {
+    border: blue solid 1px;
+}
+
+table {
+    width: 800px;
+    margin: auto;
+}

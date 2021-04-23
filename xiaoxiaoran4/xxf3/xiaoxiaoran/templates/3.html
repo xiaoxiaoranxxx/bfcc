@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cfcc</title>
+</head>
+
+<body>
+    <h2>缓存</h2>
+    <div>
+        <ul>
+            {foreach $animal as $k => $v}
+            <li>{$v}</li>
+            {/foreach}
+        </ul>
+        缓存文件在cache文件夹中,删除可更新,此文件更改可更新<br>
+        一个小时会自动更新缓存文件<br>
+        caching=1&caching=2<br>
+
+    </div>
+    <h2>局部不缓存</h2>
+    <div>
+        {$smarty.now}
+        {$smarty.now nocache}
+        {$mytime}
+        {nocache}不缓存{/nocache}
+    </div>
+    
+    <h2></h2>
+    <div>
+        
+    </div>
+</body>
+
+</html>
