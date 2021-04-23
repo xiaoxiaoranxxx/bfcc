@@ -43,5 +43,56 @@
       + xxf4打印图形.php
       + xxf5站点统计.php
     + xiao1.php *面向过程php笔记*
-    + xiao2.php *面向对象php笔记*
+    + xiao2.php *面向对象php*
     + xiao3.php *pdo->db*
+  + xiaoxiaoran4 *3个小项目*
+    + xxf1  *实现登录验证*
+      + public
+        + mysql.php
+        + public.php
+      + templates
+        + index.php
+        + login.php
+        + project.sql
+    + xxf2  *实现分页显示数据库*
+      + admin
+        + add.php
+        + admin.php
+        + del.php
+        + update.php
+      + config
+        + config.php
+      + inc
+        + conn.php
+        + head.php
+      + style
+        + common.css
+        + home.css
+      + index.php
+      + xindex.php *未分页*
+    + xxf3  *smart模板技术*
+      + smarty *真模板*
+        + ...
+      + smarty_principle *真模板原理简介*
+        + view
+          + 2.html
+        + view_c
+          + 2.php
+        + 2.php
+        + minismarty.class.php
+      + xiaoxiaoran
+        + cache
+          + ...
+        + configs
+          + site.conf
+          + style.conf
+        + templates
+          + 1.html
+          + 2.html
+          + 3.html
+        + templates_c
+          + ...
+        + 1.php
+        + 2.php
+        + 3.php
+  
