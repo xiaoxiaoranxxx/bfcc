@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE classe SYSTEM "1.dtd">
+<classe>
+	<stu >
+		<name>
+			xiao
+		</name>
+		<sex>
+			boy
+		</sex>
+		<url>
+			<a href="127.0.0.1">
+				xiuxiu
+			</a>
+			<![CDATA[
+			<a href="127.0.0.1">
+			    xiuxiu
+			</a>
+			]]>
+		</url>
+	</stu>
+	<stu >
+		<name>
+			xiaoxiao
+		</name>
+		<sex>
+			gril
+		</sex>
+	</stu>
+	<!-- 注释 -->
+	<xiaoxiaoran>
+		xml是可扩展标记语言,基于文本格式,可自定义标签
+		xml用来保存和传输数据
+		区分大小写,必须容器标记
+		xmlspy工具推荐
+		PCDATA: parse character data
+		CDATA: character data 不会有解析器解析
+        必须要保证格式良好和有效
+        DTD验证 document type definition  可独立,也可嵌套
+            no => 1
+            +  => >=1
+            *  => >=0
+            ?  => =1 || =0
+	</xiaoxiaoran>
+</classe>

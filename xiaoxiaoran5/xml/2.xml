@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE movies [
+    <!ELEMENT movies (movie+)>
+    <!ELEMENT movie (title,actor+,rating)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT actor (#PCDATA)>
+    <!ELEMENT rating (#PCDATA)>
+]>
