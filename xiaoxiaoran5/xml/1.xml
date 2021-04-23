@@ -2,30 +2,15 @@
 <!DOCTYPE classe SYSTEM "1.dtd">
 <classe>
 	<stu >
-		<name>
-			xiao
-		</name>
-		<sex>
-			boy
-		</sex>
+		<name>xiao</name>
+		<sex>boy</sex>
 		<url>
-			<a href="127.0.0.1">
-				xiuxiu
-			</a>
-			<![CDATA[
-			<a href="127.0.0.1">
-			    xiuxiu
-			</a>
-			]]>
+			<a href="127.0.0.1">xiuxiu</a><![CDATA[<a href="127.0.0.1">xiuxiu</a>]]>
 		</url>
 	</stu>
 	<stu >
-		<name>
-			xiaoxiao
-		</name>
-		<sex>
-			gril
-		</sex>
+		<name>xiaoxiao</name>
+		<sex>gril</sex>
 	</stu>
 	<!-- 注释 -->
 	<xiaoxiaoran>

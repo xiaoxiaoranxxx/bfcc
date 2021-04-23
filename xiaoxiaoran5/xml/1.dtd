@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!ELEMENT classe(stu*,xiaoxiaoran+)>
-<!ELEMENT stu(name,sex,url*)>
-<!ELEMENT name(#PCDATA)>
+<!ELEMENT classe (stu*,xiaoxiaoran*)>
+<!ELEMENT xiaoxiaoran (#PCDATA)>
+<!ELEMENT stu (name,sex+,url*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
