@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>肖萧然</title>
+    <audio autoplay="autoplay" lopp="loop" preload="auto" controls="controls"
+        src="../xiaoxiaoran/Something Just Like Th.mp3">
+
+    </audio>
+    <style>
+        h1 {
+            color: red;
+            font-size: 60px;
+            font-family: "华文行楷";
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .a {
+            color: blue;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        #adv {
+            width: 210px;
+            height: 200px;
+            color: blueviolet;
+            background-color: cyan;
+            /* position: relative absolute static fixed; */
+            position: fixed;
+            right: 50px;
+            top: 80px;
+        }
+
+        .clock {
+            position: absolute;
+            right: 0px;
+            top: 10px;
+            width: 300px;
+            height: 100px;
+
+        }
+
+        .pe {
+            width: 100px;
+            height: 100px;
+            color: white;
+            font: 60px/100px Arial;
+            border-radius: 50px;
+            text-align: center;
+            float: left;
+            margin-left: 10px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body bgcolor="pink" onload="time()">
+    <a name="top"></a>
+    <div id="adv">
+        广告
+        <button id="closeBtn" style="float: right;">关闭</button>
+        <hr>
+        <img src="./xiaoxiaoran/最秀肖萧然.jpg" height="" width="210">
+        肖萧然冯虚御风而不知其所止<br>飘飘然如遗世独立羽化而登仙<br>
+    </div>
+    <span id="time" class="clock"></span>
+    <h1 align="center">最秀肖萧然</h1>
+
+    <p class="a" align="center">
+        肖萧然冯虚御风而不知其所止<br />飘飘然如遗世独立羽化而登仙
+    </p>
+
+    <p>
+        <a href="./pikachu/index.php" target="_blank">
+            <img src="./xiaoxiaoran/pikachu1.png" height="100px"></a>
+
+        <a href="./dvwa/login.php" target="_blank">
+            <img src="./xiaoxiaoran/login_logo.png" height="100px"></a>
+
+        <a href="http://127.0.01/phpmyadmin/index.php?server=1&target=main.php&token=e9c83a979d4a314f9e5742ecd794865c"
+            target="_blank">
+            <img src="./xiaoxiaoran/logo_right.png" height="100px"></a>
+
+        <a href="./bwapp/bWAPP/login.php" target="_blank">
+            <img src="./xiaoxiaoran/bee_1.png" height="100px"></a>
+
+        <a href="./discuz/upload/forum.php" target="_blank">
+            <img src="./xiaoxiaoran/logo.png" height="100px"></a>
+
+        <a href="./sqli/" target="_blank">
+            <img src="./xiaoxiaoran/zap.png" height="100px"></a>
+
+        <a href="./upload/" target="_blank">
+            <img src="./xiaoxiaoran/logo1.png" height="100px" width="400px"> </a>
+    </p>
+    <p>
+        <div id="adq" align="center">
+            <img src="./xiaoxiaoran/肖萧然最秀.jpg" height="675" width="1200">
+        </div>
+    </p>
+    <button onclick="showWriter()">确定</button>
+    <button onclick="shutdown()">关闭</button>
+    <p>
+        <a href="#top">顶部</a>
+        <a href="../xiaoxiaoran/3d旋转特效.html">3D</a>
+        <a href="../xiaoxiaoran/机器人.html">舞蹈</a>&nbsp;
+        <a href="../xiaoxiaoran/fruit/index.html">切水果</a>&nbsp;
+        <a href="../xiaoxiaoran/樱花.html">樱花</a>&nbsp;
+        <a href="../xiaoxiaoran/雨滴.html">雨滴</a>&nbsp;
+        <a href="../xiaoxiaoran/病毒裂变.html">裂变</a>&nbsp;
+        <a href="../xiaoxiaoran/webgl/index.html">星云</a>&nbsp;
+        <a href="../xiaoxiaoran/热狗/demo.html">吃热狗</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/五子棋.html">五子棋</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/可调节旋转花.html">旋转花</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/圈内特效.html">圈效</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/夜空.html">夜空</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/彩线旋转.html">彩线</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/旋转.html">旋转</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/日出.html">日出</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/最炫酷粒子.html">粒子</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/架子鼓特效.html">鼓</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/游戏.html">飞机</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/真实烟花.html">烟花</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/穿越时空的机器人.html">机器人</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/简版冒险岛.html">冒险</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/粒子波浪.html">波浪</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/红黄蓝三线条.html">三线</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/贪吃蛇.html">贪吃蛇</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/赛车.html">赛车</a>&nbsp;
+        <a href="./xiaoxiaoran/xiu/震动的点线面.html">炫</a>&nbsp;
+
+
+    </p>
+    <p>
+        <button id="load">loading</button>
+        <div id="photos"></div>
+    </p>
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        
+        const img = document.querySelector('#adq>img')
+        const imageNames = ['./xiaoxiaoran/肖萧然最秀.jpg', './xiaoxiaoran/最秀肖萧然.jpg', './xiaoxiaoran/imges/img-1.jpg',
+            './xiaoxiaoran/imges/img-2.jpg', './xiaoxiaoran/imges/img-3.jpg', './xiaoxiaoran/imges/img-4.jpg',
+            './xiaoxiaoran/imges/img-5.jpg', './xiaoxiaoran/imges/img-6.jpg'
+        ]
+        var imageIndex = 0
+
+        function switchImage() {
+            imageIndex += 1
+            imageIndex %= imageNames.length
+            img.src = imageNames[imageIndex]
+        }
+        var timerId = setInterval(switchImage, 2000)
+        img.addEventListener('mouseover', () => clearInterval(timerId))
+        img.addEventListener('mouseout', () => {
+            timerId = setInterval(switchImage, 2000)
+        })
+
+        function shutdown() {
+            if (window.confirm('肖萧然最秀')) {
+                window.close()
+            }
+        }
+
+        function showWriter() {
+            window.alert('肖萧然最秀');
+        }
+        var closebtn = document.getElementById('closeBtn')
+        closebtn.addEventListener('click', function () {
+            var advDiv = document.getElementById('adv')
+            advDiv.style.display = 'none'
+        })
+
+        function time() {
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = date.getMonth() + 1;
+            var day = date.getDate();
+            var week = date.getDay();
+            week = "星期" + "日一二三四五六".charAt(week);
+            var hour = date.getHours();
+            hour = hour < 10 ? "0" + hour : hour;
+            var minute = date.getMinutes();
+            minute = minute < 10 ? "0" + minute : minute;
+            var second = date.getSeconds();
+            second = second < 10 ? "0" + second : second;
+            var currentTime = year + "-" + month + "-" + day + "  " + week + "   " + hour + ":" + minute + ":" + second;
+            document.getElementById("time").innerHTML = currentTime;
+        }
+        setInterval("time()", 1000);
+
+        function outputBall(num) {
+            document.write('<p class="pe">')
+            if (num < 10) {
+                document.write('0')
+            }
+            document.write(num)
+            document.write('</p>')
+        }
+        var selectBalls = []
+        while (selectBalls.length < 12) {
+            let num = parseInt(Math.random() * 999 + 1)
+            if (selectBalls.indexOf(num) == -1) {
+                selectBalls.push(num)
+            }
+        }
+
+        selectBalls.sort((x, y) => x - y)
+        for (let i = 0; i < selectBalls.length; i += 1) {
+            let num = selectBalls[i]
+            outputBall(num, 'red')
+        }
+
+        $(() => {
+            const url = 'http://api.tianapi.com/dongman/index?key=4922da12c53f450b8f36db87168e29ee&page='
+            var page = 0
+            $('#load').on('click', (evt) => {
+                page += 1
+                $.getJSON(url + page, (json) => {
+                    json.newslist.forEach((mm) => {
+                        $('#photos').prepend($('<img>').attr('src', mm.picUrl))
+                    })
+                })
+            })
+        })
+    </script>
+</body>
+
+</html>

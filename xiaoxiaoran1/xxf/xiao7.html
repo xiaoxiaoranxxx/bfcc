@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            margin: 20px 50px;
+        }
+        #fruits>li {
+            list-style: none;
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            line-height: 50px;
+            background-color: cadetblue;
+            color: white;
+            text-align: center;
+            margin: 2px 0;
+        }
+        #fruits>li>a {
+            float: right;
+            text-decoration: none;
+            color:white;
+            position: relative;
+            right: 50px;
+        }
+        #fruits-input {
+            border: none;
+            outline: none;
+            font-size: 18px;
+        }
+        #fruits-input[type=text] {
+            border-bottom: 1px solid darkgray;
+            width: 200px;
+            height: 50px;
+            text-align: center;
+        }
+        #fruits-input[type=button] {
+            width: 80px;
+            height: 30px;
+            background-color: coral;
+            color: white;
+            vertical-align: bottom;
+            cursor: pointer;
+        }
+        .a {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="buttons">
+        <button class="a"><input type="checkbox" >aaaaa</button>
+        <button class="a"><input type="checkbox" >aaaaa</button>
+        <button class="a"><input type="checkbox" >aaaaa</button>    
+    </div>
+    <div id="container">
+        <ul id="fruits">
+            <li>apple<a href="">----></a></li>
+            <li>apple<a href="javascript:void(0)">----></a></li>
+            <li>apple<a href="javascript:void(0)">x</a></li>
+            <li>apple<a href="javascript:void(0)">x</a></li>
+        </ul>
+        <input type="text" name="fruits">
+        <input id="ok" type="button" value="确定">
+    </div>
+    <!script src="js/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        
+        const allButtons = document.querySelectorAll('#buttons>button')
+        for (let i = 0;i < allButtons.length;i +=1){
+           allButtons[i].addEventListener('click',function(){
+           let checkbox = allButtons[i].firstChild
+           checkbox.checked = !checkbox.checked
+           allButtons[i].style.backgroundColor = 
+           checkbox.checked? 'blue' : 'red'
+           })          
+        }
+
+        const ul = document.querySelector('#fruits')
+        const input = document.querySelector('#fruits+input')
+        const ok = document.getElementById('ok')
+        ok.addEventListener('click',() => {
+            let name = input.value.trim()
+            if (name.length > 0){
+                let li = document.createElement('li')
+                li.textContent = name
+                //ul.appendChild(li)
+                ul.insertBefore(li,ul.firstChild)
+                input.focus()
+            }
+        })
+        var anchors = document.querySelectorAll('#fruits>li>a')
+        anchors.forEach(delAnchor => {
+            delAnchor.addEventListener('click',() => {
+                ul.removeChild(delAnchor.parentNode)
+            })
+        })
+    </script>
+    
+</body>
+</html>

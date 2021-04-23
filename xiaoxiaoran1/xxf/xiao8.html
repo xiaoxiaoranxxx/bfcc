@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            margin: 20px 50px;
+        }
+        #fruits>li {
+            list-style: none;
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            line-height: 50px;
+            background-color: cadetblue;
+            color: white;
+            text-align: center;
+            margin: 2px 0;
+        }
+        #fruits>li>a {
+            float: right;
+            text-decoration: none;
+            color:white;
+            position: relative;
+            right: 50px;
+        }
+        #fruits-input {
+            border: none;
+            outline: none;
+            font-size: 18px;
+        }
+        #fruits-input[type=text] {
+            border-bottom: 1px solid darkgray;
+            width: 200px;
+            height: 50px;
+            text-align: center;
+        }
+        #fruits-input[type=button] {
+            width: 80px;
+            height: 30px;
+            background-color: coral;
+            color: white;
+            vertical-align: bottom;
+            cursor: pointer;
+        }
+        .a {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <ul id="fruits">
+            <li>apple<a href="">x</a></li>
+            <li>apple<a href="javascript:void(0)">x</a></li>
+            <li>apple<a href="javascript:void(0)">x</a></li>
+            <li>apple<a href="javascript:void(0)">x</a></li>
+        </ul>
+        <input type="text" name="fruits">
+        <input id="ok" type="button" value="确定">
+    </div>
+    <!script src="js/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(() => {
+            $('#fruits>li>a').on('click',(evt) => {
+                evt.preventDefault()
+                //evt.stopPropagation()
+                $(evt.target).parent().remove()
+            })
+        })
+    </script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+    

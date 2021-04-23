@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+</head>
+<body>
+    <button id="load">loading</button>
+    <div id="photos"></div>
+    <script>
+        (() => {
+            const photos = document.querySelector('#photos')
+            const loadBtn = document.querySelector('#load')
+            var page = 1
+            loadBtn.addEventListener('click',(evt) => {
+                page += 1
+                let xhr = new XMLHttpRequest()
+                xhr.open('get','http://api.tianapi.com/dongman/index?key=4922da12c53f450b8f36db87168e29ee&page=' + page,true)
+                xhr.addEventListener('readystatechange',() => {
+                    if (xhr.readyState == 4 && xhr.status == 200 ){
+                        let json = JSON.parse(xhr.responseText)
+                        json.newslist.forEach((mm) => {
+                            let img = document.createElement('img')
+                            img.src = mm.picUrl
+                            img.width = 300
+                            photos.insertBefore(img,photos.firstElementChild);
+                        })
+                    } 
+                })
+                xhr.send()
+            })
+            // let xhr = new XMLHttpRequest()
+            // xhr.open('get','http://api.tianapi.com/dongman/index?key=4922da12c53f450b8f36db87168e29ee',true)
+            // xhr.addEventListener('readystatechange',() => {
+            //     if (xhr.readyState == 4 && xhr.status == 200 ){
+            //         let json = JSON.parse(xhr.responseText)
+            //         json.newslist.forEach((mm) => {
+            //             let img = document.createElement('img')
+            //             img.src = mm.picUrl
+            //             img.width = 300
+            //             photos.insertBefore(img,photos.firstElementChild);
+            //         })
+            //     } 
+            // })
+            // xhr.send()
+
+        })()
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d2 {
+            width: 145px;
+            height: 20px;
+            border: 1px solid red;
+            display: inline-block;
+        }
+
+        #d3 {
+            display: inline-block;
+            background: red;
+            height: 20px;
+        }
+    </style>
+
+    <script>
+        /*初始化*/
+        var Timer;
+        var count = 0;
+        var n = 0;
+        var sj; //解决连续点pass的bug
+
+        function initialization() {
+            window.clearInterval(sj);
+            window.clearInterval(Timer);
+            sj = window.setInterval("time()", 1000);
+            Timer = window.setInterval("automatic_star()", 1000);
+        }
+
+        //window.onload = initialization;
+
+        /*自动出现位置随机大小图片*/
+        function automatic_star() {
+            var obj = document.createElement("img");
+            var w = Math.floor(Math.random() * 400);
+            obj.width = w;
+            var x = Math.floor(Math.random() * 1066 + 100);
+            var y = Math.floor(Math.random() * 500 + 20);
+            obj.style.position = "absolute";
+            obj.style.top = y + "px";
+            obj.style.left = x + "px";
+            var i = Math.ceil(Math.random() * 10)
+            obj.src = "../f/images/" + i + ".jpg";
+
+            obj.onclick = removeStar; //添加点击事件
+            
+            count++;
+            var sp = document.getElementById("d3");
+            sp.style.width = count * 5 + "px";
+
+            if (count >= 30) {
+                alert("game over");
+                window.clearInterval(Timer);
+                location.reload();
+            }
+            document.body.appendChild(obj);
+        }
+
+        /*删除*/
+        function removeStar() {
+            this.parentNode.removeChild(this);
+            count--;
+            var sp = document.getElementById("d3");
+            sp.style.width = count * 5 + "px";
+        }
+
+        /*暂停*/
+        function stop_game() {
+            //window.clearInterval(Timer);
+            alert("stop gameing...");
+        }
+
+        function time() {
+            n++;
+            var obj = document.getElementById("d1");
+            obj.innerHTML = "进行了" + n + "秒"
+        }
+
+        /*出现点击位置随机大小图片*/
+        function star(e) {
+            var obj = document.createElement("img");
+            obj.src = "../f/images/2.jpg";
+            var w = Math.floor(Math.random() * 200);
+            obj.width = w;
+            var x = e.clientX;
+            var y = e.clientY;
+            obj.style.position = "absolute";
+            obj.style.top = y + "px";
+            obj.style.left = x + "px";
+            document.body.appendChild(obj);
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" value="pass" onclick="initialization()">
+    <input type="button" value="stop" onclick="stop_game()">
+    <span id="d1">进行了0秒</span>
+    <span id="d2">
+        <span id="d3"></span>
+    </span>
+
+</body>
+
+</html>

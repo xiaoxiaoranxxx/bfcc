@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: pink;
+
+
+}
+
+a:hover {
+    color: black
+}
+
+a:active {
+    color: yellow;
+}
+
+p {
+    font-family: "汉仪雪峰体简", "汉仪白棋体简", "华文行楷", "微软雅黑";
+    font-size: 1.2cm;
+}
+
+body {
+    background-color: pink;
+}
+
+table,
+td,
+th {
+    border: pink solid 1px;
+}
+
+table {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr {
+    height: 40px;
+}
+
+td {
+    text-align: center;
+}

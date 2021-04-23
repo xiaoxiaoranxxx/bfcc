@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>xiuxiu</title>
+    <style>
+        .pe {
+            width: 100px;
+            height: 100px;
+            color: white;
+            font: 60px/100px Arial;
+            border-radius: 50px;
+            text-align: center;
+            float: left;
+            margin-left: 10px;
+            background-color: rgb(234, 0, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function outputBall(num) {
+            document.write('<p class="pe">')
+            if (num < 10) {
+                document.write('0')
+            }
+            document.write(num)
+            document.write('</p>')
+        }
+        var selectBalls = []
+        while (selectBalls.length < 12) {
+            let num = parseInt(Math.random() * 999 + 1)
+            if (selectBalls.indexOf(num) == -1) {
+                selectBalls.push(num)
+            }
+        }
+
+        selectBalls.sort((x, y) => x - y)
+        for (let i = 00; i < selectBalls.length; i += 1) {
+            let num = selectBalls[i]
+            outputBall(num, 'red')
+        }
+
+        // const person = {
+        //     name : 'xiao',
+        //     age: 33 ,
+        //     eat : function(food){
+        //         alert(this.name + '这么好在吃' + food)
+        //     },
+        //     watch: function(){
+        //         if (this.age < 18){
+        //             alert(this.name + 'xxxxxxxxxx')
+        //         }
+        //         else{
+        //             alert(this.name + 'yyyyyyy')
+        //         }
+        //     }
+        // }
+        // person.eat('dd')
+        // person.watch()
+        
+        function Person(name , age){
+            this.name = name
+            this.age = age
+        }
+        Person.prototype.eat = function(){}
+        Person.prototype.watch = function(){}
+        person1 = new Person('a',1)
+        person1.eat()
+        person2 = new Person('b',2) 
+        person2.watch()
+    </script>
+</body>
+
+</html>

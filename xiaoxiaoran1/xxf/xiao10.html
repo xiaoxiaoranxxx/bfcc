@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery-ajax</title>
+</head>
+<body>
+    <button id="load">loading</button>
+    <div id="photos"></div>
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        // $.ajax({
+        //     "url" : url,
+        //     "type" : "get",
+        //     "data" :'http://api.tianapi.com/dongman/index?key=4922da12c53f450b8f36db87168e29ee&page=',
+        //     "data" : "json",
+        //     "dataType" :{},
+        //     "success" : (json) => {},
+        //     "error" : (error) => {}
+        // })
+    
+        $(() => {
+            const url = 'http://api.tianapi.com/dongman/index?key=4922da12c53f450b8f36db87168e29ee&page='
+            var page = 0
+            $('#load').on('click', (evt) => {
+                page +=1
+                $.getJSON(url + page ,(json) => {
+                    json.newslist.forEach((mm) => {
+                       $('#photos').prepend($('<img>').attr('src',mm.picUrl))
+                    })
+                })
+            })
+        })
+    </script>
+</body>
+</html>

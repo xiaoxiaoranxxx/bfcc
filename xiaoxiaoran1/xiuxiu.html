@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>xiuxiu</title>
+    <style>
+        .box {
+            width: 800px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            text-align: center;
+            padding: 20px;
+            /*margin-left:-200px;
+            margin-top:-150px;*/
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .content {
+            font-size: 260px;
+            font-family: "华文行楷", "华文琥珀";
+
+        }
+
+        .box button {
+            font-family: "Microsoft YaHei";
+            font-size: 20px;
+            margin-top: 10px;
+            width: 100%;
+            border: 1px solid #999;
+            cursor: pointer;
+            line-height: 40px;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="content" id="content">xiuxiu</div>
+        <button onclick="gotoRand()" id="btn">xiuxiu</button>
+    </div>
+
+    <script>
+        var nameList = [
+            '陈希龙', '程云鹏', '范波涛', '贾鹏洋', '李沁霖', '闵亨杰', '沈天昊', '陶俊杉', '王骏', '肖佳承', '杨发能', '杨鹏', '张臣', '周豪荧', '朱羿朋',
+            '冯欣', '何静', '孔姝谕', '李小辉', '刘丹', '龙宇', '马滢', '唐荟', '王新月', '文坚力', '伍芝怡', '杨施佳', '杨兴羽', '曾琳', '张芷月', '钟涵'
+        ];
+        //声明时间的变量
+        var timer = null;
+        //开始 随机的函数
+        function gotoRand() {
+            //获取button 元素
+            var button = document.getElementById('btn');
+            //判断 是开始还是结束
+            if (timer === null) {
+                //开启定时
+                timer = setInterval(getName, 88);
+                //把button的内容改掉
+                button.innerHTML = "就决定是你了";
+            } else {
+                //清除定时
+                clearInterval(timer);
+                //修改button的内容
+                button.innerHTML = "xiuxiu";
+                //把timer赋值为null
+                timer = null;
+            }
+        }
+        //随机获取姓名函数
+        function getName() {
+            var index = Math.floor(Math.random() * 10000000 % nameList.length);
+            document.getElementById('content').innerHTML = nameList[index];
+        }
+    </script>
+</body>
+</html>

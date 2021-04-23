@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>简单的</title>
+    <!--link rel="style" href="css/style.css"-->
+    <style>
+        h1 {
+            color: red;
+            background-color: blue;
+            width: 9cm;
+            height: 1cm;
+            font-size: 60px;
+            font-family: "华文行楷";
+            overflow: hidden;
+            overflow: scroll;
+        }
+
+        p {
+            font-size: 1cm;
+        }
+
+        p:first-letter {
+            font-size: 1.5cm;
+            color: blue;
+        }
+
+        .a {
+            color: bisque;
+            background-color: firebrick;
+            text-align: center;
+        }
+
+        .b {
+            color: chartreuse;
+            margin: auto;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        /* *{
+            margin: 0;
+            padding: 0%;
+                 } */
+
+        #fei {
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            margin: 10px auto;
+        }
+        #adv {
+            width: 200px;
+            height: 200px;
+            color: blueviolet;
+            background-color: cyan;
+            /* position: relative absolute static fixed; */
+            position: fixed;
+            right: 50px;
+            top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <a name="top"></a>
+    <div id="adv">
+        广告
+        <button id="closeBtn"  style="float: right;">关闭</button>
+        <hr>
+        <img src="./最秀肖萧然.jpg" height="" width="200">
+        肖萧然冯虚御风而不知其所止<br>飘飘然如遗世独立羽化而登仙<br>&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp秀秀秀
+    </div>
+    <h1>&lt;肖&gt萧然-H<sub>2</sub>O</h1>
+    <h2>肖萧然最秀</h2>
+    <ol>
+        <li id="fei">金融</li>
+        <li>计算机</li>
+        <li>管理</li>
+    </ol>
+    <dl>
+        <dt>python</dt>
+        <dd>面向对象</dd>
+        <dd><img src="./最秀肖萧然.jpg" height="100" width="" </dd>
+    </dl>
+    <h3>最秀肖萧然</h3>
+    <ul>
+        <li><a href="127.0.0.1" target="_blank">xiao1</a></li>
+        <li><a href="127.0.0.1">xiao2</a></li>
+        <li>管理</li>
+    </ul>
+    <hr>
+    <p class="a"> 肖&nbsp;萧&nbsp;然<sup>x</sup>如冯<del>ww</del>虚御风</p>
+    <p class="b"> 而<ins>不知</ins>其所&copy;止</p>
+    <p class="a b">飘飘&trade;然<strong>秀</strong>如遗世独立</p>
+    <p> 羽化<strong><em>而</em></strong>登仙</p>
+    xiuxiuxiu<br>
+    <button onclick="showWriter()">确定</button>
+    <button onclick="shutdown()">关闭</button>
+    <p>
+        <a href="#top">回到顶部</a>
+        <a href="../xiaoxiaoran2/3D粒子旋转特效/3D旋转特效.html">
+            <img src="./肖萧然最秀.jpg">qqq</a>
+    </p>
+    <script>
+        function shutdown() {
+            if (window.confirm('关闭')) {
+                window.close()
+            }
+        }
+
+        function showWriter() {
+            window.alert('肖萧然最秀');
+        }
+        // window.alert('肖萧然最秀');
+        var closebtn = document.getElementById('closeBtn')
+        closebtn.addEventListener('click',function(){
+            var advDiv = document.getElementById('adv')
+            advDiv.style.display = 'none'
+        })
+
+    </script>
+</body>
+
+</html>

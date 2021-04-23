@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div ul {
+            float: right;
+        }
+
+        #photo_switch2 ul li {
+            list-style: none;
+            border: 1px solid red;
+            width: 22px;
+            height: 22px;
+            margin-top: 10px;
+
+        }
+
+        #div_border {
+            height: 200px;
+            border: 1px solid red;
+            background-color: pink;
+            cursor: crosshair;
+        }
+
+        #photo_switch1,
+        #photo_switch2,
+        #tab_photo {
+            float: left;
+        }
+
+        #tab_photo {
+            border: 1px solid red;
+            width: 500px;
+            height: 320px;
+        }
+
+        #tab_photo ul li {
+            list-style: none;
+            float: left;
+            width: 100px;
+            border: 1px solid red;
+
+        }
+
+        #div1,
+        #div2,
+        #div3,
+        #div4 {
+            display: none;
+        }
+
+        #div1 {
+            display: block;
+        }
+    </style>
+    <script>
+        /*判断成绩*/
+        function Judgment(s) {
+            if (s > 90) {
+                document.write('true');
+            } else if (s > 80) {
+                document.write('ok')
+            } else {
+                document.write('false');
+            }
+        }
+
+        /*前m项的偶数*/
+        function even(m) {
+            var i = 1;
+            while (i <= m) {
+                i++;
+                if (i % 2 == 0) {
+                    document.write('msf-->' + i + '<br>');
+                }
+            }
+        }
+
+        /*前n项的和*/
+        function sum(n) {
+            var i = 1;
+            var sume = 0;
+            while (i <= n) {
+                sume += i;
+                i++;
+            }
+            document.write(sume + '<br>')
+        }
+
+        /*循环写数1->m*/
+        function cycle(m) {
+            var i = 0;
+            do {
+                i++;
+                document.write(i + "</br>")
+            } while (i <= m);
+        }
+
+        /*乘法表套表格*/
+        function Multiplication() {
+            document.write("<table border='1'>")
+            for (var i = 1; i <= 9; i++) {
+                document.write("<tr>");
+                for (var j = 1; j <= i; j++) {
+                    document.write("<td>");
+                    document.write(i + "x" + j + "=" + i * j + " ")
+                    document.write("</td>");
+                }
+                document.write("</tr>")
+            }
+            document.write("</table>")
+        }
+
+        /*星星*/
+        function star() {
+            document.write("<p align='center'>")
+            for (var i = 1; i <= 5; i++) {
+                for (var j = 1; j <= 2 * i - 1; j++) {
+                    document.write("*");
+                }
+                document.write("</br>");
+            }
+            document.write("</p>")
+        }
+
+        /*圆面积*/
+        function area_garden(n) {
+            area = 3.14 * n * n;
+            document.write('面积为' + area + '<br>');
+        }
+
+        /*数组求和&平均值*/
+        function Array() {
+            var arr = [11, 22, 33, 44];
+            arr[0] = 19; //赋值
+            sum = 0;
+            for (let index = 0; index < arr.length; index++) {
+                sum += arr[index];
+            }
+            document.write(sum + ' ');
+            document.write(sum / arr.length);
+        }
+
+        /*求数组的最大值*/
+        function array_max() {
+            var arr = [11, 22, 33, 44, 556, 77, 8, 854];
+            var max = arr[0];
+            for (let index = 0; index < arr.length; index++) {
+                if (max < arr[index]) {
+                    max = arr[index]
+                }
+            }
+            document.write(max)
+        }
+
+        /*二维数组求和&最大值*/
+        function two_dimensional_array() {
+            var a1 = [111, 2, 3, 9];
+            var a2 = [2, 2, 3, 333, 3, 3, 33, 212, 3];
+            var a3 = [3, 4, 3];
+            var a0 = [a1, a2, a3];
+            var sum = 0;
+            var max = a0[0][0];
+            var xbindex;
+            var xbindex1;
+            for (let index = 0; index < a0.length; index++) {
+                for (let index1 = 0; index1 < a0[index].length; index1++) {
+                    sum += a0[index][index1];
+                    if (max <= a0[index][index1]) {
+                        max = a0[index][index1];
+                        xbindex = index;
+                        xbindex1 = index1;
+                    }
+                }
+            }
+            document.write("和为" + sum + "</br>");
+            document.write("最大值" + max + "<br>");
+            document.write("最大值的下标" + xbindex + "," + xbindex1)
+        }
+
+        /*内部函数*/
+        function Internal_function() {
+            var n = parseInt(24.2); //取整
+            var n = parseInt('24.2');
+            var m = parseFloat(34.3); //取浮
+            document.write(n);
+            document.write(m);
+        }
+
+        /*对象*/
+        function array_str_Object() {
+            var arr = [1, 23, 4, 5, 6, 7];
+            var n = arr.concat(1, 2, 3, 4, [1, 2, 3]); //连接
+            var n = arr.join("-->");
+            var n = arr.pop(); //删除最后一个并取出
+            var n = arr.push(1, 2); //加入并返回长度
+
+            var str = "xiaoxiaoran"
+            var n = str.charAt(1);
+            var n = str.charCodeAt(1);
+            var n = str.indexOf("x"); //返回第一个位置
+            var n = str.lastIndexOf("x"); //返回最后一个位置
+            var n = str.substr(0, 3);
+            document.write(n);
+        }
+
+        /*文件检测*/
+        function File_detection() {
+            var obj = document.getElementById("xiao1");
+            var filename = obj.value;
+            var filename_point = filename.lastIndexOf(".");
+            var filename_suffix = filename.substr(filename_point + 1);
+            var filename_suffix = filename_suffix.toLowerCase();
+            var condition = filename_suffix == "jpg" || filename_suffix == "docx" || filename_suffix == "pdf";
+            if (condition) {
+                alert("ok");
+            } else {
+                alert("failure");
+            }
+        }
+
+        /*数字对象*/
+        function Digital_object(m, n) {
+            var number = Math.abs(m); //绝对值
+            var number = Math.pow(n, m); //n的m次方
+            var number = Math.round(n); //四舍五入
+            var number = Math.floor(n); //向下取整
+            var number = Math.ceil(n); //向上取整
+            var number = Math.random(); //[0,1)
+            var number = Math.random() * 100; //[0,100)
+            var number = Math.random() * 21; //[0,20]
+            var number = Math.floor(number);
+
+            document.write(number);
+        }
+
+        /*特殊的字符*/
+        function Special_characters() {
+            document.write("\"xiao\\xiao\\ran\\zui\\xiu\"");
+        }
+
+        /*时间表*/
+        function time() {
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = date.getMonth() + 1;
+            var day = date.getDate();
+            var week = date.getDay();
+            week = "星期" + "日一二三四五六".charAt(week);
+            var hour = date.getHours();
+            hour = hour < 10 ? "0" + hour : hour;
+            var minute = date.getMinutes();
+            minute = minute < 10 ? "0" + minute : minute;
+            var second = date.getSeconds();
+            second = second < 10 ? "0" + second : second;
+            var currentTime = year + "-" + month + "-" + day + "  " + week + "   " + hour + ":" + minute + ":" + second;
+            document.getElementById("time").innerHTML = currentTime;
+        }
+        setInterval("time()", 1000);
+        window.onload = time;
+
+        //setTimeout("function()",time)  在time时间后执行一次
+        //setInterval("function()",time) 每time时间执行一次
+
+        //var Timer = window.setTimeout("function()",time) 
+        //window.clearTimeout(Timer)  清除
+
+
+        /*日期对象*/
+        function date_object() {
+            var date1 = new Date();
+            var date2 = new Date("1999/9/9 06:06:06");
+            var date3 = new Date(2000, 02, 22, 08, 08, 08);
+            var date4 = new Date(2234538393399);
+            document.write(date1.toLocaleString() + "\n");
+            document.write(date2.toLocaleString() + "\n");
+            document.write(date3.toLocaleDateString() + "\n");
+            document.write(date4.toLocaleDateString() + "\n");
+        }
+
+        // ondbclick双击
+        // onmousedown按下
+        // onmouseup抬起
+
+        //表单
+        // onfocus获得焦点
+        // onblur失去焦点
+        // onsubmit提交事件
+        // onchange当发生改变
+        // onreset重置
+
+        //键盘
+        // onkeyup
+        // onkeydown
+        // onkeypress
+
+        //onload 窗口事件 加载完成后立即完成的事件
+        //script window.onload=function;
+        //body onload="function()"
+
+        //Event 保存事件发生的相关信息
+        // Event.clientx x轴
+        // Event.clienty
+        // event.target 事件源
+        // event必须要通过实参
+
+        /*鼠标放上_字体*/
+        function xiao_onmouseover() {
+            var obj = document.getElementById("xiao2");
+            obj.style.color = "pink";
+            obj.style.fontSize = "66px";
+            obj.style.fontFamily = "华文行楷";
+            obj.innerHTML = "肖萧然最秀";
+        }
+
+        /*鼠标移开_字体*/
+        function xiao_onmouseout() {
+            var obj = document.getElementById("xiao2");
+            obj.style.color = "pink";
+            obj.style.fontSize = "33px";
+            obj.style.fontFamily = "华文行楷";
+            obj.innerHTML = "最秀肖萧然";
+        }
+
+        /*修改图片大小*/
+        function Picture_bigger() {
+            var obj1 = document.getElementById("xiao_img1");
+            var obj2 = document.getElementById("xiao_img2");
+            var photo1_width = obj1.width;
+            var photo2_width = obj2.width;
+            obj1.width = photo1_width * 1.2;
+            obj2.width = photo2_width * 1.2;
+        }
+
+        /*计算器*/
+        function Calculator() {
+            var obj1 = document.getElementById("text1").value;
+            var obj2 = document.getElementById("text2").value;
+            var calculate_symbol = document.getElementById("symbol").value;
+            var obj3 = document.getElementById("text3");
+            obj1 = parseFloat(obj1);
+            obj2 = parseFloat(obj2);
+            if (calculate_symbol == "+") {
+                var result = obj1 + obj2;
+            } else if (calculate_symbol == "-") {
+                var result = obj1 - obj2;
+            } else if (calculate_symbol == "*") {
+                var result = obj1 * obj2;
+            } else if (calculate_symbol == "/") {
+                var result = obj1 / obj2;
+            } else {
+                var result = obj1 % obj2;
+            }
+            obj3.value = result;
+        }
+
+        /*移动坐标*/
+        function Mobile_coordinates(e) {
+            var obj = document.getElementById("div_border");
+            var x = e.clientX;
+            var y = e.clientY;
+            obj.innerHTML = "坐标" + x + "," + y;
+        }
+
+        function changes_happened() {
+            alert("这是onchange事件")
+        }
+
+        /*开关*/ //or用布尔
+        var Cycles_i = 0;
+
+        function Click_change() {
+            var obj = document.getElementById("change");
+            if (Cycles_i % 2 == 0) {
+                obj.value = "on";
+            } else {
+                obj.value = "down";
+            }
+            Cycles_i++;
+        }
+
+        /*this的应用*/
+        function Click_change_this(obj) {
+            if (obj.value == "0") {
+                obj.value = 1;
+            } else {
+                obj.value = 0;
+            }
+        }
+
+        /*windows弹窗*/
+        function Pop_ups() {
+            var n = window.prompt("肖萧然最秀", "秀秀秀");
+            document.write(n);
+            var Question = window.confirm("肖萧然最秀?");
+            if (Question == true) {
+                document.write("xiuxiuxiu");
+            } else {
+                window.open("./2star.html", "肖萧然最秀", "width=300,height=200,left=200,top=100,scrollbars=no")
+            }
+
+        }
+
+        /*图片切换1*/
+        function xiu_photo1() {
+            const img = document.querySelector('#photo_switch1>img')
+            const imageNames = ['../f/images/1.jpg', '../f/images/2.jpg', '../f/images/3.jpg',
+                '../f/images/4.jpg', '../f/images/5.jpg', '../f/images/6.jpg', '../f/images/7.jpg',
+                '../f/images/8.jpg'
+            ]
+            var imageIndex = 0
+
+            function switchImage() {
+                imageIndex += 1
+                imageIndex %= imageNames.length
+                img.src = imageNames[imageIndex]
+            }
+
+            var timerId = setInterval(switchImage, 2000)
+
+            img.addEventListener('mouseover', () => clearInterval(timerId))
+            img.addEventListener('mouseout', () => {
+                timerId = setInterval(switchImage, 2000)
+            })
+        }
+        addLoadEvent(xiu_photo1);
+
+        /*解决load不能重复调用*/
+        function addLoadEvent(func) {
+            var oldOnload = window.onload;
+            if (typeof window.onload != 'function') {
+                window.onload = func;
+            } else {
+                window.onload = function () {
+                    oldOnload();
+                    func();
+                }
+            }
+        }
+
+        /*图片切换2*/
+        var photo2_i = 1;
+        var Timer_switch2 = 0;
+
+        function xiu_photo2() {
+            var obj = document.getElementById("li1");
+            obj.style.background = "pink";
+            Timer_switch2 = window.setInterval("photo666()", 2000);
+        }
+
+        function photo666() {
+            var obj = document.getElementById("photo_init2");
+            obj.src = "../f/images/" + photo2_i + ".jpg"
+
+            if (photo2_i == 9) {
+                photo2_i = 1;
+            }
+            for (var j = 1; j <= 8; j++) {
+                var obj = document.getElementById("li" + j);
+                obj.style.background = "white";
+            }
+            var color_Box = document.getElementById("li" + photo2_i);
+            color_Box.style.background = "pink";
+            photo2_i++;
+        }
+
+        function photo_stop() {
+            window.clearInterval(Timer_switch2);
+        }
+
+        function photo_start() {
+            Timer_switch2 = window.setInterval("photo666()", 2000); //新建的定时器没有名字,在点又新建,所以一定要给名字
+        }
+
+        function photo_change(n) {
+
+            var obj = document.getElementById("photo_init2");
+            var m = n.innerHTML;
+            photo2_i = m;
+            obj.src = "../f/images/" + m + ".jpg";
+            for (var j = 1; j <= 8; j++) {
+                var obj = document.getElementById("li" + j);
+                obj.style.background = "white";
+            }
+            window.clearInterval(Timer_switch2);
+            n.style.background = "pink";
+        }
+
+        function photo_change_restore() {
+            Timer_switch2 = window.setInterval("photo666()", 2000);
+        }
+        addLoadEvent(xiu_photo2);
+
+        /*tab_浏览*/
+        function Touch_browse(num22, m) {
+            for (var i = 1; i <= 4; i++) {
+                var Alldiv = document.getElementById("div" + i);
+                Alldiv.style.display = "none";
+            }
+            for (var j = 1; j <= 4; j++) {
+                var Allul_li = document.getElementById("ul_li" + j);
+                Allul_li.style.border = "1px solid red";
+                Allul_li.style.background = "white";
+            }
+            var obj = document.getElementById("div" + num22);
+            obj.style.display = "block";
+            m.style.borderBottom = "1px solid white";
+            m.style.background = "pink";
+        }
+
+        /*找对象的方法*/
+        // document.getElementById("id")  id名
+        // document.getElementsByTagName("div")  对象的集合,相当于一个数组  obj[0]调用
+        // document.images 获取所有的img对象/数组
+        // document.links 获取所有的links对象/数组  href
+        // document.forms
+
+        /*跳转*/
+        function location_href() {
+            var n = location.href;
+            location.href = "http://www.baidu.com";
+            location.assign = (""); //跳转到下一个,会产生历史记录
+            location.reload(); //刷新
+            location.replace(""); //不能返回,不产生历史记录
+            history.back(); //返回上一个
+            history.forward(); //历史记录前一个
+            history.go(n);
+        }
+
+        /*浏览器识别*/
+        function Browser_object() {
+            var h = screen.height;
+            var w = screen.width; //获取屏幕分辨率
+            var ah = screen.availHeight;
+            var aw = screen.availWidth; //除去任务栏分辨率
+
+            var n = navigator.appName;
+            var n = navigator.appCodeName;
+            var n = navigator.appVersion;
+            var n = navigator.userAgent;
+        }
+    </script>
+</head>
+
+
+<body>
+    <p>肖萧然最秀</br></br>
+        <input type="file" id="xiao1">
+        <input type="button" value="pass" onclick="File_detection()">
+        <span id="time"></span>
+    </p>
+
+    <div id="xiao2" onmouseover="xiao_onmouseover()" onmouseout="xiao_onmouseout()">
+        肖萧然最秀
+    </div>
+
+    <div>
+        <img width="200" src="../f/images/8.jpg" id="xiao_img1">
+        <img width="200" src="../f/images/1.jpg" id="xiao_img2">
+        <input type="button" value="Become bigger" onclick="Picture_bigger()">
+        <textarea onchange="changes_happened()">
+            xiaoxiaoran
+        </textarea>
+        <input type="button" id="change" value="down" onclick="Click_change()">
+        <input type="button" value="0" onclick="Click_change_this(this)">
+    </div>
+
+    <div>
+        </br>
+        <input type="text" id="text1">
+        <select id="symbol">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+        <input type="text" id="text2">=
+        <input type="text" id="text3">
+        <input type="button" value="pass" onclick="Calculator()">
+    </div>
+
+    <p></p>
+
+    <div id="div_border" onmousemove="Mobile_coordinates(event)"></div>
+
+    <div id="photo_switch1">
+        <img src="../f/images/1.jpg" width="200px">
+    </div>
+
+    <div id="photo_switch2">
+        <img id="photo_init2" src="../f/images/6.jpg" width="200px" onmouseover="photo_stop()"
+            onmouseout="photo_start()">
+        <ul>
+            <li id="li1" onmouseover="photo_change(this)" onmouseout="photo_change_restore()">1</li>
+            <li id="li2" onmouseover="photo_change(this)" onmouseout="photo_change_restore()">2</li>
+            <li id="li3" onmouseover="photo_change(this)" onmouseout="photo_change_restore()">3</li>
+            <li id="li4" onmouseover="photo_change(this)" onmouseout="photo_change_restore()">4</li>
+            <li id="li5" onmouseover="photo_change(this)" onmouseout="photo_change_restore()">5</li>
+            <li id="li6" onmouseover="photo_change(this)" onmouseout="photo_change_restore()">6</li>
+            <li id="li7" onmouseover="photo_change(this)" onmouseout="photo_change_restore()">7</li>
+            <li id="li8" onmouseover="photo_change(this)" onmouseout="photo_change_restore()">8</li>
+        </ul>
+    </div>
+
+    <div id="tab_photo">
+        <ul>
+            <li id="ul_li1" onmouseover="Touch_browse(1,this)">xiao111</li>
+            <li id="ul_li2" onmouseover="Touch_browse(2,this)">xiao222</li>
+            <li id="ul_li3" onmouseover="Touch_browse(3,this)">xiao333</li>
+            <li id="ul_li4" onmouseover="Touch_browse(4,this)">xiao444</li>
+            <li></li>
+        </ul>
+        <div id="div1">xiao1<br>肖萧然最秀1
+            <br>肖萧然最秀666666666666666
+        </div>
+        <div id="div2">xiao2<br>肖萧然最秀2
+            <br>肖萧然最秀xiuxiuxiuxiuxiuxiuxiuxiuxiu
+        </div>
+        <div id="div3">xiao3<br>肖萧然最秀3<br>肖萧然最秀</div>
+        <div id="div4">xiao4<br>肖萧然最秀4<br>肖萧然最秀</div>
+    </div>
+</body>
+
+</html>
