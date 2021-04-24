@@ -5,5 +5,5 @@
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT sex (#PCDATA)>
 <!ELEMENT url ANY>
-<!ELEMENT a (#PCDATA)>
+<!ELEMENT a ANY>
 <!ATTLIST a href CDATA "127.0.0.1">
