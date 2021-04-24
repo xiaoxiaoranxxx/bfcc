@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT books (book)>
+<!ELEMENT book (name)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST book id ID #REQUIRED>
+<!ATTLIST book medium CDATA #FIXED "纸质">
+<!ATTLIST book type CDATA "计算机">
+<!ATTLIST book pub (北京3出版社|北京1出版社|北京2出版社) "北京出版社">
+<!ATTLIST book pagesize CDATA #IMPLIED>
