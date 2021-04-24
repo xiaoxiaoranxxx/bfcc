@@ -96,6 +96,12 @@
         + 2.php
         + 3.php
   + xiaoxiaoran4
+    + ajax
+    + json
+    + php
+      + 1.php *生成xml*
+      + 2.php *遍历xml*
+      + text1.xml
     + xml *xml的学习*
       + 1.xml  *笔记*
       + 1.dtd  
@@ -104,4 +110,5 @@
       + 3.xml
       + 4.xml
       + 4.dtd
+  
   
