@@ -4,4 +4,7 @@
     <book id="s001" medium="纸质" type="计算机" pub="北京1出版社" pagesize="300">
         <name>xiao</name>
     </book>
+    <book id="s002" medium="纸质" type="计算机" pub="北京2出版社" pagesize="300">
+        <name>xiao</name>
+    </book>
 </books>

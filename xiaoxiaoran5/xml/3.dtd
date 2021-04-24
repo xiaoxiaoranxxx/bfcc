@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!ELEMENT books (book)>
+<!ELEMENT books (book+)>
 <!ELEMENT book (name)>
 <!ELEMENT name (#PCDATA)>
 <!ATTLIST book id ID #REQUIRED>
