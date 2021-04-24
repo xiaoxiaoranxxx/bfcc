@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book SYSTEM "4.dtd" [
+    <!ENTITY bj "肖萧然出版社">
+    <!ENTITY qh "肖萧然1出版社">
+    <!ENTITY book1 "肖萧然最秀">
+    <!ENTITY book2 "肖萧然最秀555">
+]>
+<book>
+	<detail id="s001">
+		<name>xiao</name>
+        <author>xiao1</author>
+        <publication>&bj; </publication>
+        <price>23</price>
+		<url>
+			<![CDATA[<a href="127.0.0.1">xiuxiu</a>]]>
+		</url>
+        <content>&book1;</content>
+	</detail>
+
+	<detail id="s002">
+		<name>xiao33</name>
+        <author>xiao13</author>
+        <publication>&qh;</publication>
+        <price>233</price>
+		<url>
+			<![CDATA[<a href="127.0.0.1">xiuxiu</a>]]>
+		</url>
+        <content>&book2;</content>
+	</detail>
+</book>

@@ -50,7 +50,7 @@
 					amp  ampersand 8
 					quot quotation 引号
 					apot apostrophe  单引号
-			 	自定义
+			 	自定义 ! ENTITY 实体名 实体值
 			参数实体
 	</xiaoxiaoran>
 </classe>

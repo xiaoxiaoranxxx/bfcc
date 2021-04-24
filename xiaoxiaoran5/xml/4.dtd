@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT book (detail+)>
+<!ELEMENT detail (name,author,publication,price,url,content)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT publication (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ATTLIST detail id ID #REQUIRED>
