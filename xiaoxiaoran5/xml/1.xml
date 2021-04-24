@@ -15,7 +15,7 @@
 	</stu>
 	<!-- 注释 -->
 	<xiaoxiaoran>
-		xml是可扩展标记语言,基于文本格式,可自定义标签
+		xml是可扩展标记语言 extensible markup language,基于文本格式,可自定义标签
 		xml用来保存和传输数据
 
 		区分大小写,必须容器标记
