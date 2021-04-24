@@ -58,6 +58,14 @@
 
 		uri=地址 url=网址
 
+		dtd缺点
+			不遵循xml语法
+			不支持命名空间
+			数据类型少
+			不可扩展
+
+		schema缺点
+			繁琐,太长...
 
 	</xiaoxiaoran>
 </classe>
