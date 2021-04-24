@@ -4,4 +4,6 @@
 <!ELEMENT stu (name,sex+,url*)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT sex (#PCDATA)>
-<!ELEMENT url (#PCDATA)>
+<!ELEMENT url ANY>
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a href CDATA "127.0.0.1">

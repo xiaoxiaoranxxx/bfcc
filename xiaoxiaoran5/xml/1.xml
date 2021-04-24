@@ -17,15 +17,29 @@
 	<xiaoxiaoran>
 		xml是可扩展标记语言,基于文本格式,可自定义标签
 		xml用来保存和传输数据
+
 		区分大小写,必须容器标记
 		xmlspy工具推荐
+
 		PCDATA: parse character data
 		CDATA: character data 不会有解析器解析
+
         必须要保证格式良好和有效
-        DTD验证 document type definition  可独立,也可嵌套
-            no => 1
+
+        DTD验证 document type definition 可独立,也可嵌套
+            null => 1
             +  => >=1
             *  => >=0
             ?  => =1 || =0
+
+		SYSTEM 引用自定义的
+		PUBLIC 公开的w3c
+
+		! ATTLIST 元素名 属性名 [数据类型] 约束 
+			REQUIRED  必填
+			IMPLIED  可有
+			DEFAULT 默认的
+			FIXED  固定值
+			ENUM 枚举
 	</xiaoxiaoran>
 </classe>
