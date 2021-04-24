@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <books>
-  <book>
+  <book type="xiuxiu1">
     <name>php1</name>
   </book>
-  <book>
+  <book type="xiuxiu2">
     <name>php2</name>
   </book>
-  <book>
+  <book type="xiuxiu3">
     <name>php3</name>
   </book>
-  <book>
+  <book type="xiuxiu5">
     <name>php5</name>
   </book>
 </books>
