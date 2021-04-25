@@ -7,7 +7,7 @@
 
 目录结构
 ========
-bfcc
+BFCC
   + .vscode
     + launch.json
   + f *素材*
