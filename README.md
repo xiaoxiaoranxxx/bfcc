@@ -2,7 +2,8 @@
 
 
 
-![xiaoxiaoran](/f/images/12.jpg)
+<img src="f/images/12.jpg" width="100%" height="100%">
+
 
 目录结构
 ========
