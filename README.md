@@ -100,9 +100,13 @@
     + json
     + php
       + 1.php *生成xml*
-      + 2.php *遍历xml*
+      + 2.php *dom的增删改*
+      + 2.add.php
+      + 2.del.php
+      + 2.update.php
       + 3.php *递归xml*
-      + text1.xml
+      + 2.php
+      + test1.xml
     + xml *xml的学习*
       + 1.xml  *笔记*
       + 1.dtd  

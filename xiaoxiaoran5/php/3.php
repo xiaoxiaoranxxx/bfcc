@@ -2,7 +2,7 @@
 header("content-type:text/html;charset=utf-8");
 
 $doc = new DOMDocument();
-$doc->preserveWhiteSpace=false;  //去空白,必须在前面
+$doc->preserveWhiteSpace = false;  //去空白,必须在前面
 $doc->load('./test1.xml');
 // $node = $doc->getElementsByTagName('name')->item(0)->firstChild;
 // echo $node->nodeValue;
@@ -32,5 +32,5 @@ function getChilds($node)
     }
     echo '</ul>';
 }
-$root=$doc->getElementsByTagName('books')->item(0);
+$root = $doc->getElementsByTagName('books')->item(0);
 getChilds($root);
