@@ -1,11 +1,11 @@
 #  欢迎来到肖萧然的web仓库
 
-<!-- <style>
+<style>
   img[alt="xiaoxiaoran"]{
-    width:500px;
-    height:100px;
+    width:100%;
+    height:100%;
   }
-</style> -->
+</style>
 
 ![xiaoxiaoran](/f/images/12.jpg)
 
