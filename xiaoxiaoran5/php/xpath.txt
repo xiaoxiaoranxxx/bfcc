@@ -1,0 +1,10 @@
+xpath可以更好的找到节点
+/books/book[1]
+/books/book[last()]
+/books/book[last()-1]
+/books/book[position()<4]
+/books/book[@type='...'] 节点
+/books/book[price>35]
+
+
+

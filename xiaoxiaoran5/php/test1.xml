@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <books>
   <book type="xiuxiu111111">
-    <name>php11</name>
-  </book>
+    <name>书名:书名:书名:书名:php11</name>
+  <price>33</price><price>33</price><price>33</price><price>33</price></book>
   <book type="xiuxiu2232">
-    <name>php2</name>
-  </book>
+    <name>书名:书名:书名:书名:php2</name>
+  <price>33</price><price>33</price><price>33</price><price>33</price></book>
   <book type="xiuxiu3">
-    <name>php3</name>
-  </book>
+    <name>书名:书名:书名:书名:php3</name>
+  <price>33</price><price>33</price><price>33</price><price>33</price></book>
   <book type="xiuxiu5">
-    <name>php5</name>
-  </book>
-</books>
+    <name>书名:书名:书名:书名:php5</name>
+  <price>33</price><price>33</price><price>33</price><price>33</price></book>
+<book type="xiuxiu"><name>书名:书名:书名:书名:xml</name><price>33</price><price>33</price><price>33</price><price>33</price></book><book type="xiuxiu"><name>书名:书名:书名:书名:xml</name><price>33</price><price>33</price><price>33</price><price>33</price></book><book type="xiuxiu"><name>书名:书名:书名:书名:xml</name><price>33</price><price>33</price><price>33</price><price>33</price></book><book type="xiuxiu"><name>书名:书名:书名:书名:xml</name><price>33</price><price>33</price><price>33</price><price>33</price></book><book type="xiuxiu"><name>书名:书名:书名:书名:xml</name><price>33</price><price>33</price><price>33</price><price>33</price></book><book type="xiuxiu"><name>书名:书名:书名:xml</name><price>33</price><price>33</price><price>33</price></book><book type="xiuxiu"><name>书名:书名:xml</name><price>33</price><price>33</price></book><book type="xiuxiu"><name>书名:xml</name><price>33</price></book></books>
