@@ -107,6 +107,8 @@ BFCC
       + 2.update.php
       + 3.php *递归xml*
       + 2.php
+      + 4.php *simple xml->php*
+      + xpath.txt
       + test1.xml
     + xml *xml的学习*
       + 1.xml  *笔记*

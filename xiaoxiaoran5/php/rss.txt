@@ -1,0 +1,11 @@
+RSS  realy simple syndication
+
+离散的信息聚散
+
+<rss>   根
+<channel>    频道
+<title>      标题 
+<link>      地址
+<description>   描述
+<item>  具体栏目
+
