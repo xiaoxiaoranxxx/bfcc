@@ -12,7 +12,7 @@
 ========
 >BFCC
 
-f *素材*
+f &nbsp;&nbsp;*//素材*
 ========
 
 + >bootstrap
@@ -28,7 +28,7 @@ f *素材*
 + >style
   + 1.css
   
-xiaoxiaoran1
+xiaoxiaoran1  &nbsp;&nbsp;*//html笔记*
 ========
 
 + >xxf
@@ -36,35 +36,35 @@ xiaoxiaoran1
   + xiao2.html
   + ...
   + xiao11.html
-+ 1.html  *肖萧然最秀*
-+ 2.html *bootstrap*
-+ index.html *网站源文件*
-+ xiuxiu.html  *js实现随机点名*
++ 1.html  *//肖萧然最秀*
++ 2.html *//bootstrap*
++ index.html *//网站源文件*
++ xiuxiu.html  *//js实现随机点名*
   
-xiaoxiaoran2 
+xiaoxiaoran2 &nbsp;&nbsp;*//js笔记*
 =========
 
 + 1js.html  *js笔记*
 + 2star.html *js实现星星消除*
   
-xiaoxiaoran3
+xiaoxiaoran3  &nbsp;&nbsp;*//php笔记*
 =========
 
 + xxf
-  + mysql.class.php *mysql_connect*
+  + mysql.class.php *//mysql_connect*
   + xxf1判断成绩.php
   + xxf2计算器.php
   + xxf3调色板.php
   + xxf4打印图形.php
   + xxf5站点统计.php
-+ xiao1.php *面向过程php笔记*
-+ xiao2.php *面向对象php*
-+ xiao3.php *pdo->db*
++ xiao1.php *//面向过程php笔记*
++ xiao2.php *//面向对象php*
++ xiao3.php *//pdo->db*
 
- xiaoxiaoran4 *3个小项目*
+ xiaoxiaoran4  &nbsp;&nbsp;*//3个小项目*
  ========
 
-+ >xxf1  *实现登录验证*
++ >xxf1  *//实现登录验证*
   + >>public
     + mysql.php
     + public.php
@@ -72,7 +72,7 @@ xiaoxiaoran3
     + index.php
     + login.php
     + project.sql
-+ >xxf2  *实现分页显示数据库*
++ >xxf2  *//实现分页显示数据库*
   + >>admin
     + add.php
     + admin.php
@@ -87,11 +87,11 @@ xiaoxiaoran3
     + common.css
     + home.css
   + index.php
-  + xindex.php *未分页*
-+ >xxf3  *smart模板技术*
-  + >>smarty *真模板*
+  + xindex.php *//未分页*
++ >xxf3  *//smart模板技术*
+  + >>smarty *//真模板*
     + ...
-  + >>smarty_principle *模板原理简介*
+  + >>smarty_principle *//模板原理简介*
     + >view
       + 2.html
     + >view_c
@@ -114,25 +114,25 @@ xiaoxiaoran3
     + 2.php
     + 3.php
 
-xiaoxiaoran5
+xiaoxiaoran5 &nbsp;&nbsp; *//xml的学习*
 ========
 + >ajax
 + >json
 + > php
-  + 1.php *生成xml*
-  + 2.php *dom的增删改*
+  + 1.php *//生成xml*
+  + 2.php *//dom的增删改*
   + 2.add.php
   + 2.del.php
   + 2.update.php
-  + 3.php *递归xml*
+  + 3.php *//递归xml*
   + 2.php
-  + 4.php *simple xml->php*
+  + 4.php *//simple xml->php*
   + xpath.txt
   + test1.xml
-+ >xml *xml的学习*
-  + 1.xml  *笔记*
++ >xml *//xml的学习*
+  + 1.xml  *//笔记*
   + 1.dtd  
-  + 2.xml  *嵌套dtd*
+  + 2.xml  *//嵌套dtd*
   + 3.dtd
   + 3.xml
   + 4.xml
