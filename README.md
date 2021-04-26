@@ -5,8 +5,6 @@
 
 <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg9.51tietu.net%2Fpic%2F2019-091114%2Fovrdkesosjsovrdkesosjs.jpg&refer=http%3A%2F%2Fimg9.51tietu.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1621926584&t=c7641e52a5cc649d14d249d51885289c" width="100%" height="100%">
 
-<img src="https://img2.huashi6.com/images/resource/2020/06/21/8245h6228p0.png?imageView2/3/q/100/interlace/1/w/1600/h/1600/format/webp"  width="100%" height="100%">
-
 
 目录结构
 ========
