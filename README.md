@@ -1,45 +1,55 @@
 #  欢迎来到肖萧然的web仓库
 
-
+<!-- 
 <img src="./f/images/12.jpg" width="100%" height="100%">
 
 <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg9.51tietu.net%2Fpic%2F2019-091114%2Fovrdkesosjsovrdkesosjs.jpg&refer=http%3A%2F%2Fimg9.51tietu.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1621926584&t=c7641e52a5cc649d14d249d51885289c" width="100%" height="100%">
 
-<img src="https://img2.huashi6.com/images/resource/2020/06/21/8245h6228p0.png?imageView2/3/q/100/interlace/1/w/1600/h/1600/format/webp"  width="100%" height="100%">
+<img src="https://img2.huashi6.com/images/resource/2020/06/21/8245h6228p0.png?imageView2/3/q/100/interlace/1/w/1600/h/1600/format/webp"  width="100%" height="100%"> -->
 
 
 目录结构
 ========
-BFCC
-  + .vscode
-    + launch.json
-  + f *素材*
-    + bootstrap
-      + css
-      + fonts
-      + js
-    + images
-      + 1.jpg
-      + 2.jpg
-      + ...
-      + 11.jpg
-    + sound
-    + style
-      + 1.css
-  + xiaoxiaoran1
-    + xxf
-      + xiao1.html
-      + xiao2.html
-      + ...
-      + xiao11.html
-    + 1.html  *肖萧然最秀*
-    + 2.html *bootstrap*
-    + index.html *网站源文件*
-    + xiuxiu  *js实现随机点名*
-  + xiaoxiaoran2 
-    + 1js.html  *js笔记*
-    + 2star.html *js实现星星消除*
-  + xiaoxiaoran3
+>BFCC
+
+f *素材*
+========
+
++ >bootstrap
+  + css
+  + fonts
+  + js
++ >images
+  + 1.jpg
+  + 2.jpg
+  + ...
+  + 11.jpg
++ >sound
++ >style
+  + 1.css
+  
+xiaoxiaoran1
+========
+
++ >xxf
+  + xiao1.html
+  + xiao2.html
+  + ...
+  + xiao11.html
++ 1.html  *肖萧然最秀*
++ 2.html *bootstrap*
++ index.html *网站源文件*
++ xiuxiu.html  *js实现随机点名*
+  
+xiaoxiaoran2 
+=========
+
++ 1js.html  *js笔记*
++ 2star.html *js实现星星消除*
+  
+xiaoxiaoran3
+=========
+
     + xxf
       + mysql.class.php *mysql_connect*
       + xxf1判断成绩.php
@@ -50,7 +60,10 @@ BFCC
     + xiao1.php *面向过程php笔记*
     + xiao2.php *面向对象php*
     + xiao3.php *pdo->db*
-  + xiaoxiaoran4 *3个小项目*
+
+ xiaoxiaoran4 *3个小项目*
+ ========
+ 
     + xxf1  *实现登录验证*
       + public
         + mysql.php
@@ -100,27 +113,29 @@ BFCC
         + 1.php
         + 2.php
         + 3.php
-  + xiaoxiaoran4
-    + ajax
-    + json
-    + php
-      + 1.php *生成xml*
-      + 2.php *dom的增删改*
-      + 2.add.php
-      + 2.del.php
-      + 2.update.php
-      + 3.php *递归xml*
-      + 2.php
-      + 4.php *simple xml->php*
-      + xpath.txt
-      + test1.xml
-    + xml *xml的学习*
-      + 1.xml  *笔记*
-      + 1.dtd  
-      + 2.xml  *嵌套dtd*
-      + 3.dtd
-      + 3.xml
-      + 4.xml
-      + 4.dtd
-  
+
+xiaoxiaoran4
+========
++ >ajax
++ >json
++ > php
+  + 1.php *生成xml*
+  + 2.php *dom的增删改*
+  + 2.add.php
+  + 2.del.php
+  + 2.update.php
+  + 3.php *递归xml*
+  + 2.php
+  + 4.php *simple xml->php*
+  + xpath.txt
+  + test1.xml
++ >xml *xml的学习*
+  + 1.xml  *笔记*
+  + 1.dtd  
+  + 2.xml  *嵌套dtd*
+  + 3.dtd
+  + 3.xml
+  + 4.xml
+  + 4.dtd
+
   
