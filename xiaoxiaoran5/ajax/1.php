@@ -5,4 +5,5 @@ fputs($fp, $time);
 
 echo 'xiaoxiaoran';
 
-print_r($_GET);
+//print_r($_GET);
+print_r($_POST);

@@ -38,6 +38,21 @@
                 }
                 req.send(null);
             }
+
+            document.getElementById('password').onblur = function () {
+                var password = document.getElementById('password').value;
+                password = encodeURIComponent(password);
+                var req = new XMLHttpRequest();
+                req.open('post', '1.php');
+                req.onreadystatechange = function () {
+                    if (req.readyState == 4 && req.status == 200) {
+                        var str = req.responseText;
+                        alert(str);
+                    }
+                }
+                req.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                req.send('password=' + password);
+            }
         }
     </script>
 </head>
@@ -46,6 +61,7 @@
     <p>AJAX asynchronous javascript and xml </p>
     <input type="button" name="xiu" value="click" id="btn"><br>
     用户名:<input type="text" name="" value="" id="username">
+    用户码:<input type="text" name="" value="" id="password">
 </body>
 
 </html>
