@@ -43,7 +43,7 @@
                 var password = document.getElementById('password').value;
                 password = encodeURIComponent(password);
                 var req = new XMLHttpRequest();
-                req.open('post', '1.php');
+                req.open('post', '1.php?age='+20);
                 req.onreadystatechange = function () {
                     if (req.readyState == 4 && req.status == 200) {
                         var str = req.responseText;

@@ -115,6 +115,9 @@ xiaoxiaoran3  &nbsp;&nbsp;*//php笔记*
 xiaoxiaoran5 &nbsp;&nbsp; *//xml的学习*
 ========
 + >ajax
+  + 1.html *//提交数据*
+  + 1.php
+  + 1.txt
 + >json
 + > php
   + 1.php *//生成xml*
