@@ -15,9 +15,9 @@
                 else
                     req = new ActiveXObject("Msxm12.XMLHTTP");
                 req.open('get', '1.php'); //建立
-                
+
                 req.onreadystatechange = function () {
-                    if (req.readyState == 4) {
+                    if (req.readyState == 4 && req.status == 200) {
                         var str = req.responseText;
                         alert(str);
                     }
