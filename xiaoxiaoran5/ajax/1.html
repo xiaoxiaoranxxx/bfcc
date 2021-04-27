@@ -25,13 +25,27 @@
 
                 req.send();
             }
+            document.getElementById('username').onblur = function () {
+                var name = document.getElementById('username').value;
+                name = encodeURIComponent(name);
+                var req = new XMLHttpRequest();
+                req.open('get', '1.php?name=' + name);
+                req.onreadystatechange = function () {
+                    if (req.readyState == 4 && req.status == 200) {
+                        var str = req.responseText;
+                        alert(str);
+                    }
+                }
+                req.send(null);
+            }
         }
     </script>
 </head>
 
 <body>
     <p>AJAX asynchronous javascript and xml </p>
-    <input type="button" name="xiu" value="click" id="btn">
+    <input type="button" name="xiu" value="click" id="btn"><br>
+    用户名:<input type="text" name="" value="" id="username">
 </body>
 
 </html>

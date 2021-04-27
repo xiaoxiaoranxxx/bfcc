@@ -4,3 +4,5 @@ $time = date("Y-m-d H:i:s" . "\n");
 fputs($fp, $time);
 
 echo 'xiaoxiaoran';
+
+print_r($_GET);
