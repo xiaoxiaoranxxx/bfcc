@@ -7,18 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJAX</title>
     <script>
-        var req = ' ';
-        if (window.XMLHttpRequest)
-            req = new XMLHttpRequest();
-        else
-            req = new ActiveXObject("Msxm12.XMLHTTP");
+        window.onload = function () {
+            document.getElementById('btn').onclick = function () {
+                var req = ' ';
+                if (window.XMLHttpRequest)
+                    req = new XMLHttpRequest();
+                else
+                    req = new ActiveXObject("Msxm12.XMLHTTP");
+                req.open('get', '1.php'); //建立
+                req.send();
+            }
+        }
     </script>
 </head>
 
 <body>
-    <p>
-        AJAX asynchronous javascript and xml
-    </p>
+    <p>AJAX asynchronous javascript and xml </p>
+    <input type="button" name="xiu" value="click" id="btn">
 </body>
 
 </html>
