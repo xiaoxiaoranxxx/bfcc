@@ -15,6 +15,14 @@
                 else
                     req = new ActiveXObject("Msxm12.XMLHTTP");
                 req.open('get', '1.php'); //建立
+                
+                req.onreadystatechange = function () {
+                    if (req.readyState == 4) {
+                        var str = req.responseText;
+                        alert(str);
+                    }
+                }
+
                 req.send();
             }
         }
