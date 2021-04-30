@@ -114,6 +114,8 @@ xiaoxiaoran5 &nbsp;&nbsp; *//xml的学习*
   + 1.html *//提交数据*
   + 1.php
   + 1.txt
+  + 2.html *//ajax分页*
+  + 2.php
 + >json
 + > php
   + 1.php *//生成xml*

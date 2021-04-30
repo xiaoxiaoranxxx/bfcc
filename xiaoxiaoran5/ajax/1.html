@@ -25,7 +25,7 @@
 
                 req.send();
             }
-            
+
             document.getElementById('username').onblur = function () {
                 var name = document.getElementById('username').value;
                 name = encodeURIComponent(name);
@@ -44,7 +44,7 @@
                 var password = document.getElementById('password').value;
                 password = encodeURIComponent(password);
                 var req = new XMLHttpRequest();
-                req.open('post', '1.php?age='+20);
+                req.open('post', '1.php?age=' + 20);
                 req.onreadystatechange = function () {
                     if (req.readyState == 4 && req.status == 200) {
                         var str = req.responseText;
@@ -54,6 +54,7 @@
                 req.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
                 req.send('password=' + password);
             }
+            //同步:同一个时间点只允许一个进程
         }
     </script>
 </head>

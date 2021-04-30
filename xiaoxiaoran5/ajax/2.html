@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajax-Pagination</title>
+</head>
+
+<body>
+    <input type="text" name="" id="">
+    <div id='result'></div>
+    <script>
+        function showList(pageno) {
+            var req = new XMLHttpRequest();
+            req.open('get', './2.php?pageno=' + pageno);
+            req.onreadystatechange = function () {
+                if (req.readyState == 4 && req.status == 200) {
+                    document.getElementById('result').innerHTML = req.responseText;
+                }
+            }
+            req.send(null);
+        }
+        window.onload = function () {
+            showList(1);
+        }
+        
+
+    </script>
+    
+</body>
+
+</html>
