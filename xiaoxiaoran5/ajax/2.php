@@ -5,7 +5,7 @@ mysql_query('set names utf8');
 $rs = mysql_query('select count(*) from region');
 $rows = mysql_fetch_array($rs);
 $recordcount = $rows[0];
-$pagesize = 120;
+$pagesize = 78;
 $pagecount = ceil($recordcount / $pagesize);
 $pageno = isset($_GET['pageno']) ? $_GET['pageno'] : 1;
 if ($pageno < 1) $pageno = 1;
@@ -30,7 +30,7 @@ $rs = mysql_query($sql);
     <tr>
         <td colspan="3">
             <?php for ($i = 1; $i <= $pagecount; $i++) {
-                echo "<a href='?javascript:void(0)' onclick='showList($i)'>{$i}</a>&nbsp;";
+                echo "<a href='javascript:void(0)' onclick='showList($i)'>{$i}</a>&nbsp;";
             } ?>
         </td>
     </tr>
