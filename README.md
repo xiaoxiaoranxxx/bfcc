@@ -141,4 +141,11 @@ xiaoxiaoran5 &nbsp;&nbsp; *//xml的学习*
   + 4.xml
   + 4.dtd
 
+xiaoxiaoran6 &nbsp;&nbsp; *//thinkphp的学习*
+========
   
++ >thinkphp3.2.3
+
+
+<img src="https://file.piczhan.com/uploads/2018/0415/2yOl6xxnRTROHufl.jpg?x-oss-process=style/w_870-h_auto" width="100%" height="100%">
+<img src="https://file.piczhan.com/uploads/2020/0701/79AMqCvy8QFoCP1g.jpg?x-oss-process=style/w_870-h_auto" width="100%" height="100%">
