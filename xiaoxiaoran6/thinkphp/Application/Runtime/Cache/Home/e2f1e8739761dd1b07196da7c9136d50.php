@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,12 +10,11 @@
 
 <body>
     <script>
-        //http://127.0.0.1/xiaoxiaoran/bfcc/xiaoxiaoran6/thinkphp/index.php/home/index/register.html
         window.onload = function () {
             document.getElementById('username').onblur = function () {
                 var username = encodeURIComponent(this.value);
                 var req = new XMLHttpRequest();
-                req.open('post', '__URL__/checkUser');
+                req.open('post', '/xiaoxiaoran/bfcc/xiaoxiaoran6/thinkphp/index.php/Home/Index/checkUser');
                 req.onreadystatechange = function () {
                     if (req.readyState == 4 && req.status == 200) {
                         var flag = parseInt(req.responseText);
