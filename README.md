@@ -14,14 +14,7 @@ f &nbsp;&nbsp;*//素材*
 ========
 
 + >bootstrap
-  + css
-  + fonts
-  + js
 + >images
-  + 1.jpg
-  + 2.jpg
-  + ...
-  + 11.jpg
 + >sound
 + >style
   + 1.css
