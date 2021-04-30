@@ -21,7 +21,7 @@
                         var flag = parseInt(req.responseText);
                         if (flag) {
                             alert('此用户已存在...');
-                            document.getElementById('username').select();
+                            //document.getElementById('username').select();
                             return false;
                         } else {
                             alert('ok');
@@ -29,7 +29,7 @@
                     }
                 }
                 req.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-                req.sed('username=' + username);
+                req.send('username=' + username);
             }
         }
     </script>

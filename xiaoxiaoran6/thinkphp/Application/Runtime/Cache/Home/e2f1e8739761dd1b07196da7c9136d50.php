@@ -10,6 +10,7 @@
 
 <body>
     <script>
+        //http://127.0.0.1/xiaoxiaoran/bfcc/xiaoxiaoran6/thinkphp/index.php/home/index/register.html
         window.onload = function () {
             document.getElementById('username').onblur = function () {
                 var username = encodeURIComponent(this.value);
@@ -20,7 +21,7 @@
                         var flag = parseInt(req.responseText);
                         if (flag) {
                             alert('此用户已存在...');
-                            document.getElementById('username').select();
+                            //document.getElementById('username').select();
                             return false;
                         } else {
                             alert('ok');
@@ -28,7 +29,7 @@
                     }
                 }
                 req.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-                req.sed('username=' + username);
+                req.send('username=' + username);
             }
         }
     </script>
