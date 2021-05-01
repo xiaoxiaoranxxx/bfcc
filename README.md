@@ -124,7 +124,6 @@ xiaoxiaoran5 &nbsp;&nbsp; *//xml的学习*
   + 2.del.php
   + 2.update.php
   + 3.php *//递归xml*
-  + 2.php
   + 4.php *//simple xml->php*
   + xpath.txt
   + test1.xml
