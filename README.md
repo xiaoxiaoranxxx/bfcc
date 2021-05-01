@@ -113,6 +113,10 @@ xiaoxiaoran5 &nbsp;&nbsp; *//xml的学习*
   + 2.php
 + >json
   + 1.php *//php<->json*
+  + 2.html *//js访问php json数据*
+  + 2.php
+  + 3.html *//json分页* 
+  + 3.php
 + > php-xml
   + 1.php *//生成xml*
   + 2.php *//dom的增删改*
