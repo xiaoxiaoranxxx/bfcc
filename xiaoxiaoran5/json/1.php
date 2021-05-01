@@ -34,6 +34,13 @@
         //     console.log(stu[s]);
         // }
     </script>
+    <?php 
+    $stu=array('ww','e','r','t');
+    $str=json_encode($stu);
+    echo $str,'<br>';  //["ww","e","r","t"]
+    print_r(json_decode($str));  //Array ( [0] => ww [1] => e [2] => r [3] => t )
+
+    ?>
 </body>
 
 </html>
