@@ -34,12 +34,26 @@
         //     console.log(stu[s]);
         // }
     </script>
-    <?php 
-    $stu=array('ww','e','r','t');
-    $str=json_encode($stu);
-    echo $str,'<br>';  //["ww","e","r","t"]
-    print_r(json_decode($str));  //Array ( [0] => ww [1] => e [2] => r [3] => t )
+    <?php
+    $stu = array('ww', 'e', 'r', 't');
+    $str = json_encode($stu);  //php->json
+    echo $str, '<br>';  //["ww","e","r","t"]
+    print_r(json_decode($str)); //json->php //Array ( [0] => ww [1] => e [2] => r [3] => t )  
+    echo '<hr>';
 
+    class stue
+    {
+        public $name = 'xiao';
+        private $sex = 'man';
+        public function getname()
+        {
+        }
+    }
+    $stu = new stue();
+    $str = json_encode($stu);   //{"name":"xiao"}
+    echo $str, '<br>';
+    print_r(json_decode($str));  //stdClass Object ( [name] => xiao )
+    print_r(json_decode($str,true));  //Array ( [name] => xiao )
     ?>
 </body>
 
