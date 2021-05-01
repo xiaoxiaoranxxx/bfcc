@@ -13,14 +13,15 @@
         window.onload = function () {
             document.getElementById('btn').onclick = function () {
                 var req = new XMLHttpRequest();
-                req.open('get', './1.php');
+                req.open('get', './2.php');
                 req.onreadystatechange = function () {
                     if (req.readyState == 4 && req.status == 200) {
                         var str = req.responseText;
                         //console.log(typeof str); //string
                         eval('var info='+str);
-                        //console.log(typeof str); //object
-                        console.log(info.name);
+            
+                        console.log(typeof(info));
+                        document.getElementById('result').innerHTML='name-->'+info.name;
                     }
                 }
                 req.send(null);
