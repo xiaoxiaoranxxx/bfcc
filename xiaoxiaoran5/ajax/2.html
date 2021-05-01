@@ -13,10 +13,10 @@
     <div id='result'></div>
     <script>
         function showList(pageno) {
-            var req = new XMLHttpRequest();
+            var req = new XMLHttpRequest();  
             req.open('get', './2.php?pageno=' + pageno);
             req.onreadystatechange = function () {
-                if (req.readyState == 4 && req.status == 200) {
+                if (req.readyState == 4 && req.status == 200) {  //readystate请求状态,status返回状态码
                     document.getElementById('result').innerHTML = req.responseText;
                 }
             }

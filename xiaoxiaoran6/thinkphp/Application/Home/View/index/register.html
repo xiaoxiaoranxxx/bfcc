@@ -18,7 +18,7 @@
                 req.open('post', '__URL__/checkUser');
                 req.onreadystatechange = function () {
                     if (req.readyState == 4 && req.status == 200) {
-                        var flag = parseInt(req.responseText);
+                        var flag = parseInt(req.responseText);//接收返回的字符串
                         if (flag) {
                             alert('此用户已存在...');
                             //document.getElementById('username').select();
@@ -28,7 +28,7 @@
                         }
                     }
                 }
-                req.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                req.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');//参数设置xml格式
                 req.send('username=' + username);
             }
         }
