@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json-Pagination</title>
+</head>
+
+<body>
+    <table id='result'></table>
+    <script>
+        function showList(pageno) {
+            var req = new XMLHttpRequest();
+            req.open('get', './3.php?pageno=' + pageno);
+            req.onreadystatechange = function () {
+                if (req.readyState == 4 && req.status == 200) { //readystate请求状态,status返回状态码
+                    eval('var info =' + req.responseText);
+                    var str = '<tr><th>name1</th><th>name2</th><th>name3</th></tr>';
+                    for (var i = 0, n = info.length - 1; i < n; i++) {
+                        str += '<tr><td>' + info[i].code + '</td><td>' + info[i].p_code + '</td><td>' + info[i]
+                            .name + '</td></tr>';
+                    }
+                    str += '<tr><td colspan="3" align="center">';
+                    for (var i = 1; i <= info[info.length - 1]; i++) {
+                        str += '<a href="javascript:void(0)" onclick="showList(' + i + ')" >' + i + '</a>&nbsp;';
+                    }
+                    str += '</td></tr>';
+                    document.getElementById('result').innerHTML = str;
+                }
+            }
+            req.send(null);
+        }
+        window.onload = function () {
+            showList(1);
+        }
+    </script>
+
+</body>
+
+</html>
