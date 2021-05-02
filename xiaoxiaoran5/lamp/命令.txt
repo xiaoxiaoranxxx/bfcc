@@ -4,5 +4,44 @@
 
         vim .vimrc  set nu 默认显示行号
         vim .bashrc  alias 'clear'=cls  别名
+		
+		rpm -qa mysql  搜索
+		rpm -qa mysql | grep
+		
+		rpm -e mysql --nodeps 卸载
+		
+		rpm -ivh mysql 安装
+		
+		ls mysql*
+		
+		/etc/sysconfig/network
+		#ifdown eth0
+		#ifup eth0
+		
+		#useradd xiao1
+		/etc/passwd  /etc/shadow
+		passwd xiao -->password
+		
+		group xiao1
+		/etc/group
+		
+		ls -l > list.txt  把结果保存到文件中
+		> 覆盖写  >>增加写
+		
+		find /home -name 关键词 查找
+	 
+		man ls q
+	
+		ssh 22端口 sshd服务
+		
+		service name start/stop/restart
+
+		光盘挂载  /mnt
+		
+		
+		
+		
+		
+		
 
 
