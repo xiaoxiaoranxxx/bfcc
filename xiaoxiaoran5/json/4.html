@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fromdata</title>
+</head>
+
+<body>
+    <script>
+        window.onload = function () {
+            document.getElementById('btn').onclick = function () {
+                var frm = document.getElementById('frm');
+                var fd = new FormData(frm);
+                var req = new XMLHttpRequest();
+                req.open('post', './4.php');
+                req.onreadystatechange = function () {
+                    if (req.readyState == 4 && req.status == 200) {
+                        console.log(req.responseText);
+                    }
+                }
+                req.send(fd);
+            }
+        }
+    </script>
+    <form action="" id="frm">
+        username:<input type="text" name="username" value=""><br>
+        password:<input type="password" name="pwd" value="">
+        <input type="button" value="pass" id="btn">
+
+    </form>
+</body>
+
+</html>
