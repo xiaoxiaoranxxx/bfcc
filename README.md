@@ -121,6 +121,9 @@ xiaoxiaoran5 &nbsp;&nbsp; *//xml的学习*
   + 3.php
   + 4.html *//formdata*
   + 4.php
+  + 5.html *//json调天气预报*
+  + 5.php
++ >lamp
 + > php-xml
   + 1.php *//生成xml*
   + 2.php *//dom的增删改*

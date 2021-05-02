@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天气预报</title>
+</head>
+
+<body>
+    <script>
+        window.onload = function () {
+            var req = new XMLHttpRequest();
+            req.onreadystatechange = function () {
+                if (req.readyState == 4 && req.status == 200) {
+                    eval('var info=' + req.responseText);
+                    info = info.weatherinfo;
+                    console.log(info);
+                    var str = '';
+                    str += '城市-->' + info.city + '<br>';
+                    str += '编号-->' + info.cityid + '<br>';
+                    str += '温度-->' + info.temp + '<br>';
+                    str += '风向-->' + info.WD + '<br>';
+                    str += '时间-->' + info.time + '<br>';
+                    document.getElementById('result').innerHTML = str;
+                }
+            }
+            req.open('get', './5.php');
+            req.send();
+        }
+    </script>
+    <div id="result"></div>
+</body>
+
+</html>
