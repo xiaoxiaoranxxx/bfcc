@@ -111,12 +111,16 @@ xiaoxiaoran5 &nbsp;&nbsp; *//xml的学习*
   + 1.txt
   + 2.html *//ajax分页*
   + 2.php
+  + 3.html *//ajax文件上传*
+  + 3.php
 + >json
   + 1.php *//php<->json*
   + 2.html *//js访问php json数据*
   + 2.php
   + 3.html *//json分页* 
   + 3.php
+  + 4.html *//formdata*
+  + 4.php
 + > php-xml
   + 1.php *//生成xml*
   + 2.php *//dom的增删改*
