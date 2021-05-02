@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajax文件上传</title>
+</head>
+
+<body>
+    <script>
+        window.onload = function () {
+            document.getElementById('btn').onclick = function () {
+                var frm = document.getElementById('frm');
+                var fd = new FormData(frm); //formdata收集二进制数据
+                var req = new XMLHttpRequest();
+                req.open('post', './3.php');
+                req.onreadystatechange = function () {
+                    if (req.readyState == 4 && req.status == 200) {
+                        if(req.responseText=='1'){
+                            alert('ok');
+                        }else{
+                            alert('false');
+                        }
+                    }
+                }
+                req.send(fd);
+            }
+        }
+    </script>
+    <form action="" id="frm"> <!-- 不需要enctype属性-->
+        username:<input type="text" name="username" value=""><br>
+        photo:<input type="file" name="face" value="">
+        <input type="button" value="pass" id="btn">
+
+    </form>
+</body>
+
+</html>
