@@ -1,0 +1,27 @@
+    application 应用目录
+        common 应用级别函数库和配置文件目录
+        home 分组目录
+        runtime 临时文件目录
+        index.html 目录安全文件
+
+    public js,css等公共静态资源
+
+    thinkphp 框架核心目录
+        common 系统函数库
+            functions.php  系统函数
+        conf 系统配置目录
+            convention.php 系统配置文件
+        lang 语言包目录
+        library thinkphp中的核心目录
+            behavior 行为文件目录
+            org 功能扩展目录
+            think 最核心的目录
+            vendor 第三方扩展目录
+        mode
+        Tpl 系统模板目录
+        Thinkphp.php 项目接口文件
+
+    .htaccess 分布式配置文件    
+
+
+
