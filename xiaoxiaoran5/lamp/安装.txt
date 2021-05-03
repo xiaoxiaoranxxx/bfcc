@@ -1,0 +1,105 @@
+
+	service iptables stop 关闭防火墙
+		
+		rpm -qa iptables	
+			iptables-1.4.21-35.el7.x86_64
+			
+		rpm -e iptables-1.4.21-35.el7.x86_64
+			错误：依赖检测失败：
+			
+		rpm -e iptables-1.4.21-35.el7.x86_64 --nodeps
+		
+	tar -zxvf xx.gz
+	tar -jxvf xx.bz2
+	
+	安装zlib库
+		cd /usr/local/src
+		wget http://zlib.net/zlib-1.2.11.tar.gz
+		tar -zxvf zlib-1.2.11.tar.gz
+		cd zlib-1.2.11
+		./configure
+		make && make install
+			cp zlib.h zconf.h /usr/local/include
+			chmod 644 /usr/local/include/zlib.h /usr/local/include/zconf.h
+	
+	安装Apache
+		rpm -qa httpd  有的话要卸载
+		
+		sudo yum install httpd
+			
+		vim +95 /etc/httpd/conf/httpd.conf
+			ServerName www.example.com:80
+
+		安装完成后，启用并启动Apache服务：
+			sudo systemctl enable httpd
+			sudo systemctl start httpd
+		
+		我们可以通过以下方式检查Apache服务的状态和版本：
+		sudo systemctl status httpd
+		
+		sudo httpd -v
+		
+		要停止Apache服务，请运行：
+		sudo systemctl stop httpd
+
+		要再次启动，请键入：
+		sudo systemctl start httpd
+
+		重新启动Apache服务：
+		$sudo systemctl restart httpd
+
+		在进行一些配置更改后重新加载Apache服务：
+		$sudo systemctl reload httpd
+
+		如果您想禁用Apache服务以在启动时启动：
+		$sudo systemctl disable httpd
+
+		并重新启用它：
+		$sudo systemctl enable httpd
+		
+		
+	安装libxml2
+		sudo yum install libxml2
+
+	安装 jpeg8
+		sudo yum install libjpeg
+	
+	安装libpng
+		sudo yum install libpng
+	
+	安装freetype
+		sudo yum install freetype
+
+	安装GD库
+		sudo yum install gd
+	
+	安装openssl
+		sudo yum install openssl
+	
+	安装php
+		sudo yum install php
+	
+	安装cmake
+		sudo yum install cmake
+		
+	修改apache配置	
+		vim +285 /etc/httpd/conf/httpd.conf
+			AddType application/x-httpd-php .php
+		vim +164 /etc/httpd/conf/httpd.conf
+			DirectoryIndex index.php  index.html
+		
+	安装 ncurses-devel
+		 yum install ncurses-devel
+
+	老师通过源码安装的方式...全是gz文件,找不到...
+	yum源安后方式不一样...我这个无语
+	网上搜大佬的教程...基本搞定
+	所有环境ok...虽然还有点蒙..
+	
+	https://www.php.cn/php-weizijiaocheng-392894.html
+	
+	http://www.mamicode.com/info-detail-2205853.html
+	
+
+		
+		

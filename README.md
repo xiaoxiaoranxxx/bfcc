@@ -124,6 +124,7 @@ xiaoxiaoran5 &nbsp;&nbsp; *//xml的学习*
   + 5.html *//json调天气预报*
   + 5.php
 + >lamp
+  + 安装.txt
   + 命令.txt
   + 文件系统.txt
   + vim.txt
