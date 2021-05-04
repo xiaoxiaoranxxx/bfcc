@@ -13,6 +13,7 @@
     </p>
     <p>
         传递变量--><?php echo ($var); ?>
+        <br>分割符在 convention.php 165行
     </p>
 </body>
 </html>

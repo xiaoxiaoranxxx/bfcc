@@ -8,4 +8,8 @@ return array(
     'DB_PWD'                =>  'root',          // 密码
     'DB_PORT'               =>  '3306',        // 端口
     'DB_PREFIX'             =>  '',    // 数据库表前缀
+
+    'TMPL_PARSE_STRING' =>array(
+        '__ADMIN__' => __ROOT__.'xx'
+    )
 );

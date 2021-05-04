@@ -65,4 +65,8 @@ class UserController extends Controller
         echo '6666';
         $this->display('test5'); //传递到指定
     }
+    public function test7()
+    {
+        $this->display();
+    }
 }

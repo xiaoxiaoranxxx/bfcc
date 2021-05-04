@@ -37,7 +37,7 @@ class ContentReplaceBehavior {
             '__URL__'       =>  __CONTROLLER__,
             '__PUBLIC__'    =>  __ROOT__.'/Public',// 站点公共目录
         );
-        // 允许用户自定义模板的字符串替换
+        // 允许用户自定义模板的字符串替换 
         if(is_array(C('TMPL_PARSE_STRING')) )
             $replace =  array_merge($replace,C('TMPL_PARSE_STRING'));
         $content = str_replace(array_keys($replace),array_values($replace),$content);
