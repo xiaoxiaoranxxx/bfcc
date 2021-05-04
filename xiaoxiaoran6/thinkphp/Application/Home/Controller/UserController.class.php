@@ -53,4 +53,14 @@ class UserController extends Controller
     {
         $this->error('false',U('test'),10);
     }
+    public function test5()
+    {
+        echo '6666';
+        $this->display();  //同名
+    }
+    public function test6()
+    {
+        echo '6666';
+        $this->display('test5'); //传递到指定
+    }
 }
