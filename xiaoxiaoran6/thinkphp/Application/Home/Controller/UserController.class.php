@@ -31,11 +31,26 @@ class UserController extends Controller
     // 虚拟主机  AllowOverride all
     // .htaccess 存在index.php同级目录
     // 127.0.0.1\xiaoxiaoran\bfcc\xiaoxiaoran6\thinkphp\index.php\Home\User\xiu\id\100
-    
+
     // 兼容形式
 
     // 路由形式配置值只影响url组装函数(U函数)生成的形式
 
-
-
+    public function test1()
+    {
+        echo U('Index/index');
+    }
+    public function test2()
+    {
+        echo U('Index/index', array('id' => 100));
+    }
+    // http://127.0.0.1/xiaoxiaoran/bfcc/xiaoxiaoran6/thinkphp/index.php/Home/User/test3
+    public function test3()
+    {
+        $this->success('操作成功', U('test'), 10);
+    }
+    public function test4()
+    {
+        $this->error('false',U('test'),10);
+    }
 }
