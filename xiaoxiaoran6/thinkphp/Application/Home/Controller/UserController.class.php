@@ -51,11 +51,13 @@ class UserController extends Controller
     }
     public function test4()
     {
-        $this->error('false',U('test'),10);
+        $this->error('false', U('test'), 10);
     }
     public function test5()
     {
         echo '6666';
+        $var = date('Y-m-d H:i:s', time());
+        $this->assign('var', $var); //传递变量给模板
         $this->display();  //同名
     }
     public function test6()

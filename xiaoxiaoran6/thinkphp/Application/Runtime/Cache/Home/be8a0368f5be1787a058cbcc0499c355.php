@@ -11,5 +11,8 @@
     <p>
         在User控制器下的test5方法中展示test5.html
     </p>
+    <p>
+        传递变量--><?php echo ($var); ?>
+    </p>
 </body>
 </html>

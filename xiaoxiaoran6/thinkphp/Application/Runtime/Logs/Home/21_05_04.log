@@ -359,3 +359,63 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001881s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001984s ]
 
+[ 2021-05-04T21:14:49+08:00 ] 127.0.0.1 /xiaoxiaoran/bfcc/xiaoxiaoran6/thinkphp/index.php/Home/User/test3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002997s ]
+
+[ 2021-05-04T21:14:54+08:00 ] 127.0.0.1 /xiaoxiaoran/bfcc/xiaoxiaoran6/thinkphp/index.php/Home/User/test5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001954s ]
+
+[ 2021-05-04T21:16:17+08:00 ] 127.0.0.1 /xiaoxiaoran/bfcc/xiaoxiaoran6/thinkphp/index.php/Home/User/test5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000831s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002182s ]
+
