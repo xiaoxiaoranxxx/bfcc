@@ -20,13 +20,11 @@ f &nbsp;&nbsp;*//素材*
 xiaoxiaoran1  &nbsp;&nbsp;*//html笔记*
 ========
 
-+ >xxf
-  + xiao1.html
-  + xiao2.html
-  + ...
-  + xiao11.html
++ >xiao1  *//收集的好看的html*
++ >xiao3  *//收集的好玩的html*
++ >xiao3  *//写的笔记,有点乱,,*
 + 1.html  *//肖萧然最秀*
-+ 2.html *//bootstrap*
++ 2.html  *//bootstrap*
 + index.html *//网站源文件*
 + xiuxiu.html  *//js实现随机点名*
   
