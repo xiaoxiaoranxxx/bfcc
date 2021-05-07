@@ -15,6 +15,7 @@
     <?php echo (date('Y-m-d H:i:s',$time)); ?><hr>
     <?php echo (strtoupper(substr($str,0,5))); ?>
     <?php echo (substr($str,0,5)); ?>
+    xiu:<?php echo ((isset($sign) && ($sign !== ""))?($sign):' 默认值'); ?>
 </body>
 
 </html>

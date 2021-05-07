@@ -94,8 +94,12 @@ class UserController extends Controller
     {
         $time = time();
         $str = 'qwertyuiop';
+        $sign = ' ';
+        $this->assign('sign', $sign);
+
         $this->assign('str', $str);
         $this->assign('time', $time);
         $this->display();
+        
     }
 }
