@@ -67,6 +67,6 @@ class UserController extends Controller
     }
     public function test7()
     {
-        $this->display();
+        $this->display();  //display() = fetch()+echo
     }
 }
