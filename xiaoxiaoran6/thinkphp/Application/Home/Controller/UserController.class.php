@@ -100,6 +100,17 @@ class UserController extends Controller
         $this->assign('str', $str);
         $this->assign('time', $time);
         $this->display();
-        
+    }
+    public function head()
+    {
+        $this->display();
+    }
+    public function body()
+    {
+        $this->display();
+    }
+    public function foot()
+    {
+        $this->display();
     }
 }
