@@ -10,3 +10,26 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003777s ]
 INFO: [ app_end ] --END-- [ RunTime:0.004023s ]
 
+[ 2021-05-07T16:28:14+08:00 ] 127.0.0.1 /xiaoxiaoran/bfcc/xiaoxiaoran6/thinkphp/index.php/Admin/Books/shilihua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002953s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003901s ]
+
+[ 2021-05-07T16:31:22+08:00 ] 127.0.0.1 /xiaoxiaoran/bfcc/xiaoxiaoran6/thinkphp/index.php/Admin/Books/shilihua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004521s ]
+
