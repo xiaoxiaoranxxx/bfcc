@@ -90,4 +90,12 @@ class UserController extends Controller
         $this->assign('stu', $stu);
         $this->display();
     }
+    public function test10()
+    {
+        $time = time();
+        $str = 'qwertyuiop';
+        $this->assign('str', $str);
+        $this->assign('time', $time);
+        $this->display();
+    }
 }
