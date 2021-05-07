@@ -74,11 +74,20 @@ class UserController extends Controller
         $array = array('1', '2', '3', '4');
         $this->assign('array', $array);
         $array2 = array(
-            array('sd', 'd', 'ds', 'sdsd'), 
+            array('sd', 'd', 'ds', 'sdsd'),
             array('swd', 'wd', 'dsw', 'qsdsd'),
             array('swd', 'wd', 'dsw', 'qsdsd')
         );
         $this->assign('array2', $array2);
+        $this->display();
+    }
+    public function test9()
+    {
+        $stu = new Student;  // 命名空间会寻找
+        // dump($stu);
+        $stu->id = 100;
+        $stu->name = '肖';
+        $this->assign('stu', $stu);
         $this->display();
     }
 }
