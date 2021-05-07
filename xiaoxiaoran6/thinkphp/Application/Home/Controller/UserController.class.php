@@ -119,4 +119,8 @@ class UserController extends Controller
         $this->assign('day', $day);
         $this->display();
     }
+    public function test12()
+    {
+        $this->display();
+    }
 }
