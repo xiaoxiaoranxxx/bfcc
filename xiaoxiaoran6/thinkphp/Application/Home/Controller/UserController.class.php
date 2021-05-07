@@ -69,4 +69,16 @@ class UserController extends Controller
     {
         $this->display();  //display() = fetch()+echo
     }
+    public function test8()
+    {
+        $array = array('1', '2', '3', '4');
+        $this->assign('array', $array);
+        $array2 = array(
+            array('sd', 'd', 'ds', 'sdsd'), 
+            array('swd', 'wd', 'dsw', 'qsdsd'),
+            array('swd', 'wd', 'dsw', 'qsdsd')
+        );
+        $this->assign('array2', $array2);
+        $this->display();
+    }
 }
