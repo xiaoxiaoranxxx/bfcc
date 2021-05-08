@@ -52,6 +52,17 @@ class BooksController extends Controller  //声明控制器类并继承父类
         // $result = $model->addAll($data2); //批量添加
         dump($result);
     }
+    public function AR_add()
+    {
+        $model = M('Books');  //映射表
+        $model->bName = '1212';
+        $model->bTypeId = '1212';  //__set()
+        $model->publishing = '1212';
+        $model->price = '1212';
+        $model->author = '1212';
+        $result = $model->add();  //映射记录
+        dump($result); //返回新增的主键id
+    }
     public function xiugai()
     {
         $model = M('Books');
@@ -61,6 +72,14 @@ class BooksController extends Controller  //声明控制器类并继承父类
             "price" => 315553,
         );
         $result = $model->save($data);
+        dump($result); //没有主键会错误,返回受到影响的行数
+    }
+    public function AR_update()
+    {
+        $model = M('Books');
+        $model->bId = '48';
+        $model->bName = '48';
+        $result = $model->save();
         dump($result); //没有主键会错误,返回受到影响的行数
     }
     public function chaxun()
@@ -86,10 +105,27 @@ class BooksController extends Controller  //声明控制器类并继承父类
 
         dump($data);
     }
+
+    public function AR_delete()
+    {
+        $model = M('Books');
+        $model->bId = '48';
+        $result = $model->delete();
+        dump($result); //没有主键会错误,返回受到影响的行数
+    }
     public function shanchu()
     {
         $model = M('Books');
         $result = $model->delete(47); //没有主键是错误的，返回受影响行的数量
         dump($result);
+    }
+
+    public function AR_accident()
+    {
+        $model = M('Books');
+        $data = $model->find(49);
+        $model->bName = '484444444444';
+        $result = $model->save();
+        dump($result); //在之前有查询可不用指定主键
     }
 }
