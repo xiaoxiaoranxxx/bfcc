@@ -85,7 +85,7 @@ class BooksController extends Controller  //声明控制器类并继承父类
     public function shanchu()
     {
         $model = M('Books');
-        $result = $model->delete(47);//没有主键会错误,返回受到影响的行数
+        $result = $model->delete(47);//没有主键是错误的，返回受影响行的数量
         dump($result);
     }
 }
