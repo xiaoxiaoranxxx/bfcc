@@ -128,7 +128,7 @@ class BooksController extends Controller  //声明控制器类并继承父类
         $result = $model->save();
         dump($result); //在之前有查询可不用指定主键
     }
-
+    //  http://127.0.0.1/xiaoxiaoran/bfcc/xiaoxiaoran6/thinkphp/index.php/Admin/Books/coherent
     public function aassist()
     {
         $model = M('Books');
@@ -171,6 +171,7 @@ class BooksController extends Controller  //声明控制器类并继承父类
     {
         $model = M('Books');
         $data = $model->field('bName,count(*) as count')->group('bTypeId')->select(); //连贯操作
+        //$data = $model->field('bName,count(*) as count')->fetchSql(true)->group('bTypeId')->select(); //sql调试,返回sql语句
         dump($data);
         //原理 返回值是 $this,$this是当前的模型类
     }
