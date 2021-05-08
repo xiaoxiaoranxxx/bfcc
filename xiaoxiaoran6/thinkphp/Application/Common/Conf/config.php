@@ -8,4 +8,6 @@ return array(
 	'DB_PWD'                =>  'root',          // 密码
 	'DB_PORT'               =>  '3306',        // 端口
 	'DB_PREFIX'             =>  '',    // 数据库表前缀
+
+	'SHOW_PAGE_TRACE' => true,  //跟踪信息
 );

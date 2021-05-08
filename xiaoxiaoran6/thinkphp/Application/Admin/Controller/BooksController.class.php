@@ -80,12 +80,16 @@ class BooksController extends Controller  //声明控制器类并继承父类
         $data = $model->find();
         $data = $model->find(2);
 
+        //echo $model->getLastSql(); //打印最后一条成功的sql语句
+        //echo $model->_sql(); //打印最后一条成功的sql语句
+
+
         dump($data);
     }
     public function shanchu()
     {
         $model = M('Books');
-        $result = $model->delete(47);//没有主键是错误的，返回受影响行的数量
+        $result = $model->delete(47); //没有主键是错误的，返回受影响行的数量
         dump($result);
     }
 }
