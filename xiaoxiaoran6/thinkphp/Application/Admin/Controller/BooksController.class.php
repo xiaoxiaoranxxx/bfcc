@@ -141,7 +141,7 @@ class BooksController extends Controller  //声明控制器类并继承父类
     {
         $model = M('Books');
         //$data = $model->limit(4);
-        $data = $model->limit(3,6);
+        $data = $model->limit(3, 6);
         $data = $model->select();
         dump($data);
     }
@@ -166,5 +166,12 @@ class BooksController extends Controller  //声明控制器类并继承父类
         $model->field('bName,count(*) as count');
         $data = $model->select();
         dump($data);
+    }
+    public function coherent()
+    {
+        $model = M('Books');
+        $data = $model->field('bName,count(*) as count')->group('bTypeId')->select(); //连贯操作
+        dump($data);
+        //原理 返回值是 $this,$this是当前的模型类
     }
 }
