@@ -128,4 +128,43 @@ class BooksController extends Controller  //声明控制器类并继承父类
         $result = $model->save();
         dump($result); //在之前有查询可不用指定主键
     }
+
+    public function aassist()
+    {
+        $model = M('Books');
+        $model->where('bId > 40');
+        $data = $model->limit(4);
+        $data = $model->select();
+        dump($data);
+    }
+    public function alimit()
+    {
+        $model = M('Books');
+        //$data = $model->limit(4);
+        $data = $model->limit(3,6);
+        $data = $model->select();
+        dump($data);
+    }
+    public function afield()
+    {
+        $model = M('Books');
+        $data = $model->field('bName,bId');
+        $data = $model->select();
+        dump($data);
+    }
+    public function aorder()
+    {
+        $model = M('Books');
+        $model->order('price desc');
+        $data = $model->select();
+        dump($data);
+    }
+    public function agroup()
+    {
+        $model = M('Books');
+        $model->group('bTypeId');
+        $model->field('bName,count(*) as count');
+        $data = $model->select();
+        dump($data);
+    }
 }

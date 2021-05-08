@@ -24,3 +24,6 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005188s ]
 INFO: [ app_end ] --END-- [ RunTime:0.005368s ]
 
+[ 2021-05-08T10:14:27+08:00 ] 127.0.0.1 /xiaoxiaoran/bfcc/xiaoxiaoran6/thinkphp/index.php/Admin/Books/afield
+ERR: Think\Model:filed方法不存在！
+
