@@ -37,6 +37,7 @@ class IndexController extends Controller  //声明控制器类并继承父类
         cookie('name2', 'xiao2', 3600);
         dump(cookie('name1'));
         cookie('name1', null);//删除
-        cookie() //获取全部
+        cookie(); //获取全部
+        cookie(null); //清空全部,有bug
     }
 }
