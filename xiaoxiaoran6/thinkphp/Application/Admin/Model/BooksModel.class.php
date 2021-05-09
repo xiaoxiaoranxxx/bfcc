@@ -16,4 +16,12 @@ class BooksModel extends Model
     // $model=D('Books');
     // $data=$model->create();
     // $model->getError();
+
+    protected $_map      = array(
+        'abc' => 'name',
+        'sort' => 'asdw',
+        'ewe' => 'password'
+    );  //字段映射
+
+    protected $trueTableName = 'xiao';  //没有前缀
 }
