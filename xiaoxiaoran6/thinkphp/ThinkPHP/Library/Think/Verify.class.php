@@ -9,7 +9,7 @@
 // | Author: 麦当苗儿 <zuojiazi@vip.qq.com> <http://www.zjzit.cn>
 // +----------------------------------------------------------------------
 
-namespace Think;
+namespace Think;  
 
 class Verify {
     protected $config =	array(

@@ -134,4 +134,18 @@ class UserController extends Controller
         load('@/hello');
         hello('xiaoxiaoran...');
     }
+
+    public function yan()
+    {
+        $cfg = array(
+            'fontSize'  =>  25,              // 验证码字体大小(px)
+            'useCurve'  =>  true,            // 是否画混淆曲线
+            'useNoise'  =>  true,            // 是否添加杂点	
+            'imageH'    =>  0,               // 验证码图片高度
+            'imageW'    =>  0,               // 验证码图片宽度
+            'length'    =>  4,               // 验证码位数
+        );
+        $verify = new \Think\Verify($cfg);
+        $verify->entry();
+    }
 }
