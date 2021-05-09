@@ -1376,7 +1376,7 @@ function cookie($name='', $value='', $option=null) {
         $prefix = empty($value) ? $config['prefix'] : $value;
         if (!empty($prefix) || $name==null) {// 如果前缀为空字符串将不作处理直接返回
             foreach ($_COOKIE as $key => $val) {
-                if (0 === stripos($key, $prefix) $name ==null ) {
+                if (0 === stripos($key, $prefix)|| $name ==null ) {
                     setcookie($key, '', time() - 3600, $config['path'], $config['domain'],$config['secure'],$config['httponly']);
                     unset($_COOKIE[$key]);
                 }
