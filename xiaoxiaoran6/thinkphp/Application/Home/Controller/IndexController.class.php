@@ -20,4 +20,23 @@ class IndexController extends Controller  //声明控制器类并继承父类
         $info = M('users')->getByUsername($username);
         echo $info === null ? 0 : 1;
     }
+    public function test1()
+    {
+        session('name1', 'xiaoxiaoran111'); //设置一个会话
+        session('name2', 'xiaoxiaoran222');
+        dump($_SESSION);
+        $value = session('name1');  //赋值
+        session('name', null);  //删除
+        dump($value);
+        dump(session());  //全部
+        dump(session('?name1'));
+    }
+    public function test2()
+    {
+        cookie('name1', 'xiao1');
+        cookie('name2', 'xiao2', 3600);
+        dump(cookie('name1'));
+        cookie('name1', null);//删除
+        cookie() //获取全部
+    }
 }
