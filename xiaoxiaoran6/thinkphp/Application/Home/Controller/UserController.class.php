@@ -123,4 +123,15 @@ class UserController extends Controller
     {
         $this->display();
     }
+    public function funcc()
+    {
+        //使用函数
+        gbk2utf8();
+        getinf();
+    }
+    public function hello()
+    {
+        load('@/hello');
+        hello('xiaoxiaoran...');
+    }
 }

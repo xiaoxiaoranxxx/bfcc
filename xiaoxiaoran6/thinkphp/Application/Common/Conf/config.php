@@ -10,4 +10,6 @@ return array(
 	'DB_PREFIX'             =>  '',    // 数据库表前缀
 
 	'SHOW_PAGE_TRACE' => true,  //跟踪信息
+
+	'LOAD_EXT_FILE'   => 'info', //动态加载文件,函数调用
 );
