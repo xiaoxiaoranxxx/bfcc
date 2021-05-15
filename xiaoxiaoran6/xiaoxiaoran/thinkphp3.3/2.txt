@@ -7,4 +7,6 @@
     ip数据库 纯真 https://www.cz88.net/
         new \Org\Net\IpLocation('qqwry.dat);
 
+    redis
+    mongodb
     

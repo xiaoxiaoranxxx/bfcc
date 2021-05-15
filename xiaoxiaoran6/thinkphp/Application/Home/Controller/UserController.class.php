@@ -149,7 +149,7 @@ class UserController extends Controller
         $verify->entry();
     }
 
-    public function _empty()
+    public function _empty()  //空操作,只在当前控制器
     {
         echo "这-->" . ACTION_NAME . '不存在';
     }
