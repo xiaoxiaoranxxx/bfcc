@@ -148,4 +148,9 @@ class UserController extends Controller
         $verify = new \Think\Verify($cfg);
         $verify->entry();
     }
+
+    public function _empty()
+    {
+        echo "这-->" . ACTION_NAME . '不存在';
+    }
 }
