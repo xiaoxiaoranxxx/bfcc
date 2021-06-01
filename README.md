@@ -24,7 +24,7 @@ xiaoxiaoran1  &nbsp;&nbsp;*//html笔记*
 
 + >xiao1  *//收集的好看的html*
 + >xiao3  *//收集的好玩的html*
-+ >xiao3  *//写的笔记,有点乱,,*
++ >xiao3  *//html笔记,*
 + 1.html  *//肖萧然最秀*
 + 2.html  *//bootstrap*
 + index.html *//网站源文件*

@@ -1,4 +1,18 @@
 
+	在CentOS中默认安装有MariaDB
+
+	linux系统区分大小写,切记,切记
+	
+	
+	https://blog.csdn.net/qq_36582604/article/details/80526287
+	
+	https://www.php.cn/php-weizijiaocheng-392894.html
+	
+	http://www.mamicode.com/info-detail-2205853.html
+	
+	
+
+	
 	service iptables stop 关闭防火墙
 		
 		rpm -qa iptables	
@@ -91,15 +105,7 @@
 	安装 ncurses-devel
 		 yum install ncurses-devel
 
-	老师通过源码安装的方式...全是gz文件,找不到...
-	yum源安后方式不一样...我这个无语
-	网上搜大佬的教程...基本搞定
-	所有环境ok...虽然还有点蒙..
-	
-	https://www.php.cn/php-weizijiaocheng-392894.html
-	
-	http://www.mamicode.com/info-detail-2205853.html
-	
+
 
 		
 		
