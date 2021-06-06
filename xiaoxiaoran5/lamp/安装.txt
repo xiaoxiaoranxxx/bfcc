@@ -1,5 +1,5 @@
 
-	在CentOS中默认安装有MariaDB
+	在CentOS中默认安装mysql-->MariaDB
 
 	linux系统区分大小写,切记,切记
 	
@@ -11,7 +11,18 @@
 	http://www.mamicode.com/info-detail-2205853.html
 	
 	
-
+	https://www.php.cn/mysql-tutorials-414854.html
+	
+	https://blog.csdn.net/qq_36582604/article/details/80526287
+	
+	
+	mysql
+		GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.100.1' IDENTIFIED BY 'root' WITH GRANT OPTION;
+		flush privileges;
+		
+	firewall-cmd --zone=public --add-port=3306/tcp --permanent
+	firewall-cmd --zone=public --add-port=8080/tcp --permanent
+	firewall-cmd --reload
 	
 	service iptables stop 关闭防火墙
 		
