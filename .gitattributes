@@ -1,1 +1,3 @@
 *.php linguist-language=php
+
+*.html linguist-languag=txt
