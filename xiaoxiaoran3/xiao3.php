@@ -23,13 +23,13 @@ var_dump($stmt->fetch(PDO::FETCH_ASSOC));  //关联数组
 var_dump($stmt->fetch(PDO::FETCH_NUM));  //索引数据组
 var_dump($stmt->fetch(PDO::FETCH_OBJ));  //对象
 
-$rows=array();  //遍历结果
-while($row=$stmt->fetch(PDO::FETCH_ASSOC)){
-    $rows[]=$row;
+$rows = array();  //遍历结果
+while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+    $rows[] = $row;
 }
 var_dump($rows);
 
-$rows=$stmt->fetchAll();  //直接遍
+$rows = $stmt->fetchAll();  //直接遍
 var_dump($rows);
 
 //遍历某一列的值
@@ -93,9 +93,9 @@ if ($flag) {
 }
 
 
-$pdo->setAttribute(PDO::ATTR_CASE,PDO::CASE_UPPER);  //设置大小写
-$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);  //设置错误模式
-$rows=$stmt->fetchAll();
+$pdo->setAttribute(PDO::ATTR_CASE, PDO::CASE_UPPER);  //设置大小写
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);  //设置错误模式
+$rows = $stmt->fetchAll();
 
 
 class xiao
@@ -117,14 +117,13 @@ try {
     echo $e->getMessage();
 }
 
-$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);  //异常机制,对所有的监听
-try{
-    $sql="select * from xiao11";
-    $stmt=$pdo->query($sql);
-}catch(PDOException $e){
-    echo '错误的信息:',$e->getMessage(),'<br>';
-    echo '错误的代码:',$e->getCode(),'<br>';
-    echo '错误的脚本:',$e->getFile(),'<br>';
-    echo '错误的行号:',$e->getLine(),'<br>';
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  //异常机制,对所有的监听
+try {
+    $sql = "select * from xiao11";
+    $stmt = $pdo->query($sql);
+} catch (PDOException $e) {
+    echo '错误的信息:', $e->getMessage(), '<br>';
+    echo '错误的代码:', $e->getCode(), '<br>';
+    echo '错误的脚本:', $e->getFile(), '<br>';
+    echo '错误的行号:', $e->getLine(), '<br>';
 }
-

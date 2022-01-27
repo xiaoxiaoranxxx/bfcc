@@ -1,0 +1,6 @@
+{
+    "code-runner.executorMap": {
+        "php": "cls;php  ",
+    }
+
+}
