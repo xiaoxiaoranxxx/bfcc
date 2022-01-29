@@ -1,5 +1,213 @@
 {
+    "auto_choose_source_list": ["kuwo", "qq", "migu", "netease", "taihe"],
     "current-playing": [{
+        "id": "qqtrack_004CMDDE1TLnYH",
+        "title": "蓝银色的海",
+        "artist": "张碧晨",
+        "artist_id": "qqartist_0003ZpE43ypssl",
+        "album": "蓝银色的海",
+        "album_id": "qqalbum_0024olx61WzhOx",
+        "img_url": "http://imgcache.qq.com/music/photo/mid_album_300/O/x/0024olx61WzhOx.jpg",
+        "source": "qq",
+        "source_url": "http://y.qq.com/#type=song&mid=004CMDDE1TLnYH&tpl=yqq_song_detail",
+        "url": "qqtrack_004CMDDE1TLnYH",
+        "disabled": false,
+        "$$hashKey": "object:7453"
+    }, {
+        "id": "netrack_1887457610",
+        "title": "失去才懂<纯音乐>",
+        "artist": "墨小天",
+        "artist_id": "neartist_47972509",
+        "album": "念旧的人",
+        "album_id": "nealbum_132464426",
+        "source": "netease",
+        "source_url": "http://music.163.com/#/song?id=1887457610",
+        "img_url": "http://p1.music.126.net/2yRG9KCRh9OF83O871P-Vg==/109951166332780166.jpg",
+        "url": "netrack_1887457610",
+        "disabled": false,
+        "$$hashKey": "object:4515"
+    }, {
+        "id": "netrack_1398909242",
+        "title": "她的微笑 (original Mix)",
+        "artist": "阳山伟伟",
+        "artist_id": "neartist_12641107",
+        "album": "她的微笑 (original Mix)",
+        "album_id": "nealbum_82705987",
+        "source": "netease",
+        "source_url": "http://music.163.com/#/song?id=1398909242",
+        "img_url": "http://p2.music.126.net/pjyIzsPu5czr-jvRRGF4GQ==/109951164445982737.jpg",
+        "url": "netrack_1398909242",
+        "disabled": false,
+        "$$hashKey": "object:4269"
+    }, {
+        "id": "netrack_1345395655",
+        "title": "穿越时空的思念 (DiESi Remix)",
+        "artist": "DiESi",
+        "artist_id": "neartist_12001195",
+        "album": "穿越时空的思念",
+        "album_id": "nealbum_75495254",
+        "source": "netease",
+        "source_url": "http://music.163.com/#/song?id=1345395655",
+        "img_url": "http://p1.music.126.net/Wc5RGwkyzCldRQK9oD9ODA==/109951163854792864.jpg",
+        "url": "netrack_1345395655",
+        "disabled": false,
+        "$$hashKey": "object:3476"
+    }, {
+        "id": "netrack_3932159",
+        "title": "You",
+        "artist": "Approaching Nirvana",
+        "artist_id": "neartist_86884",
+        "album": "YOU",
+        "album_id": "nealbum_95457745",
+        "source": "netease",
+        "source_url": "http://music.163.com/#/song?id=3932159",
+        "img_url": "http://p2.music.126.net/C71zjT6CpHzqcRFObJO4Rg==/109951165319954700.jpg",
+        "url": "netrack_3932159",
+        "disabled": false,
+        "$$hashKey": "object:3231"
+    }, {
+        "id": "netrack_468176711",
+        "title": "城南花已开",
+        "artist": "三亩地",
+        "artist_id": "neartist_1044144",
+        "album": "城南花已开",
+        "album_id": "nealbum_35310694",
+        "source": "netease",
+        "source_url": "http://music.163.com/#/song?id=468176711",
+        "img_url": "http://p1.music.126.net/i-7ktILRPImJ0NwiH8DABg==/109951162885959979.jpg",
+        "url": "netrack_468176711",
+        "disabled": false,
+        "$$hashKey": "object:3098"
+    }, {
+        "id": "netrack_28892408",
+        "title": "我的天空",
+        "artist": "南征北战NZBZ",
+        "artist_id": "neartist_189873",
+        "album": "青春派 电影原声带",
+        "album_id": "nealbum_2630008",
+        "source": "netease",
+        "source_url": "http://music.163.com/#/song?id=28892408",
+        "img_url": "http://p1.music.126.net/v0LaYOX44ZiJjC1bzZbKOg==/109951163884032084.jpg",
+        "url": "netrack_28892408",
+        "disabled": false
+    }, {
+        "id": "kgtrack_237A264315ECEA69F9A23FB5D36E346A",
+        "title": "一马飞歌到草原",
+        "artist": "张冬玲",
+        "artist_id": "kgartist_7083",
+        "album": "",
+        "album_id": "kgalbum_",
+        "source": "kugou",
+        "source_url": "http://www.kugou.com/song/#hash=237A264315ECEA69F9A23FB5D36E346A&album_id=",
+        "url": "kgtrack_237A264315ECEA69F9A23FB5D36E346A",
+        "lyric_url": "237A264315ECEA69F9A23FB5D36E346A",
+        "$$hashKey": "object:8810",
+        "disabled": false
+    }, {
+        "id": "netrack_407450223",
+        "title": "爸爸妈妈",
+        "artist": "李荣浩",
+        "artist_id": "neartist_4292",
+        "album": "有理想",
+        "album_id": "nealbum_34567265",
+        "source": "netease",
+        "source_url": "http://music.163.com/#/song?id=407450223",
+        "img_url": "http://p1.music.126.net/e-Uc6W3Kug-HFHJ5nvCUPg==/109951166562828988.jpg",
+        "url": "netrack_407450223",
+        "disabled": false,
+        "$$hashKey": "object:7759"
+    }, {
+        "id": "netrack_165353",
+        "title": "在路上",
+        "artist": "瓦其依合",
+        "artist_id": "neartist_5539",
+        "album": "黑鹰之梦",
+        "album_id": "nealbum_16609",
+        "source": "netease",
+        "source_url": "http://music.163.com/#/song?id=165353",
+        "img_url": "http://p2.music.126.net/XX2gJnI5lGQIxQT0Wz9NAg==/94558000000902.jpg",
+        "url": "netrack_165353",
+        "disabled": false,
+        "$$hashKey": "object:15738"
+    }, {
+        "id": "kgtrack_C0652FDFB4CB14AEA48F09BFFB7DCDD2",
+        "title": "Faded (2k21版)",
+        "artist": "野马",
+        "artist_id": "kgartist_5460686",
+        "album": "我在黑白照片里寻找彩虹",
+        "album_id": "kgalbum_42152765",
+        "source": "kugou",
+        "source_url": "http://www.kugou.com/song/#hash=C0652FDFB4CB14AEA48F09BFFB7DCDD2&album_id=42152765",
+        "url": "kgtrack_C0652FDFB4CB14AEA48F09BFFB7DCDD2",
+        "lyric_url": "C0652FDFB4CB14AEA48F09BFFB7DCDD2",
+        "$$hashKey": "object:4433",
+        "disabled": false
+    }, {
+        "id": "netrack_1803443499",
+        "title": "Faded ( Keyfm RMX )",
+        "artist": "Keyfm",
+        "artist_id": "neartist_34393359",
+        "album": "Faded ( Keyfm RMX )",
+        "album_id": "nealbum_120269145",
+        "source": "netease",
+        "source_url": "http://music.163.com/#/song?id=1803443499",
+        "img_url": "http://p1.music.126.net/i8C8unKlOoLD02orQu8jDg==/109951165532574473.jpg",
+        "url": "netrack_1803443499",
+        "disabled": false,
+        "$$hashKey": "object:4142"
+    }, {
+        "id": "kgtrack_546F6B265C4ED18C4F39136FEB40192E",
+        "title": "Spartanos (片段)",
+        "artist": "网络歌手",
+        "artist_id": "kgartist_86956",
+        "album": "",
+        "album_id": "kgalbum_",
+        "source": "kugou",
+        "source_url": "http://www.kugou.com/song/#hash=546F6B265C4ED18C4F39136FEB40192E&album_id=",
+        "url": "kgtrack_546F6B265C4ED18C4F39136FEB40192E",
+        "lyric_url": "546F6B265C4ED18C4F39136FEB40192E",
+        "$$hashKey": "object:10675",
+        "disabled": false
+    }, {
+        "id": "netrack_512376326",
+        "title": "阿衣莫",
+        "artist": "阿吉太组合",
+        "artist_id": "neartist_12031075",
+        "album": "阿衣莫",
+        "album_id": "nealbum_36530066",
+        "source": "netease",
+        "source_url": "http://music.163.com/#/song?id=512376326",
+        "img_url": "http://p2.music.126.net/T8NN9mGSxJL8GhtCpJjL7w==/109951166336905015.jpg",
+        "url": "netrack_512376326",
+        "disabled": false,
+        "$$hashKey": "object:7905"
+    }, {
+        "id": "kgtrack_563BE85C8FC1E5FE8DA2B43DB397732F",
+        "title": "兰亭序 (片段)",
+        "artist": "小乐哥(王唯乐)",
+        "artist_id": "kgartist_823674",
+        "album": "",
+        "album_id": "kgalbum_",
+        "source": "kugou",
+        "source_url": "http://www.kugou.com/song/#hash=563BE85C8FC1E5FE8DA2B43DB397732F&album_id=",
+        "url": "kgtrack_563BE85C8FC1E5FE8DA2B43DB397732F",
+        "lyric_url": "563BE85C8FC1E5FE8DA2B43DB397732F",
+        "$$hashKey": "object:6619",
+        "disabled": false
+    }, {
+        "id": "netrack_1878815188",
+        "title": "Good Time",
+        "artist": "Owl City",
+        "artist_id": "neartist_40859",
+        "album": "Family Friendly Summer Hits",
+        "album_id": "nealbum_133358085",
+        "source": "netease",
+        "source_url": "http://music.163.com/#/song?id=1878815188",
+        "img_url": "http://p2.music.126.net/-RxMP9fw2BidKc5-_H5njw==/109951166421345001.jpg",
+        "url": "netrack_1878815188",
+        "disabled": false,
+        "$$hashKey": "object:4739"
+    }, {
         "id": "netrack_461544312",
         "title": "All Time Low",
         "artist": "Kurt Hugo Schneider",
@@ -215,7 +423,8 @@
         "source_url": "http://www.kugou.com/song/#hash=413AB38FEC88C3BC05DDAA520E54C4D5&album_id=35426447",
         "url": "kgtrack_413AB38FEC88C3BC05DDAA520E54C4D5",
         "lyric_url": "413AB38FEC88C3BC05DDAA520E54C4D5",
-        "$$hashKey": "object:4874"
+        "$$hashKey": "object:4874",
+        "disabled": false
     }, {
         "id": "netrack_1858139145",
         "title": "时光背面的我",
@@ -308,17 +517,6 @@
         "disabled": false,
         "$$hashKey": "object:14650"
     }, {
-        "id": "netrack_512640295",
-        "title": "Star Unkind (Lanfranchi & Farina Remix)",
-        "artist": "2Someone",
-        "artist_id": "neartist_12835852",
-        "album": "Star Unkind",
-        "album_id": "nealbum_36545363",
-        "source": "netease",
-        "source_url": "http://music.163.com/#/song?id=512640295",
-        "img_url": "http://p4.music.126.net/lUkMyaM7i_XhlyyafcQT0Q==/18141941859131607.jpg",
-        "url": "netrack_512640295"
-    }, {
         "id": "netrack_1441860073",
         "title": "Morsmordre",
         "artist": "Crazy Donkey",
@@ -328,7 +526,8 @@
         "source": "netease",
         "source_url": "http://music.163.com/#/song?id=1441860073",
         "img_url": "http://p3.music.126.net/hZZF9j6Rd_Te3CXYqg5GIg==/109951165772600862.jpg",
-        "url": "netrack_1441860073"
+        "url": "netrack_1441860073",
+        "disabled": false
     }, {
         "id": "kgtrack_EAE14E415F14F961685AFD79A584FC13",
         "title": "篝火旁",
@@ -340,7 +539,8 @@
         "source_url": "http://www.kugou.com/song/#hash=EAE14E415F14F961685AFD79A584FC13&album_id=36588692",
         "url": "kgtrack_EAE14E415F14F961685AFD79A584FC13",
         "lyric_url": "EAE14E415F14F961685AFD79A584FC13",
-        "$$hashKey": "object:13719"
+        "$$hashKey": "object:13719",
+        "disabled": false
     }, {
         "id": "kgtrack_9C6B1E4D11764EAE83D787CA66A4BC2C",
         "title": "Black Magic",
@@ -352,7 +552,8 @@
         "source_url": "http://www.kugou.com/song/#hash=9C6B1E4D11764EAE83D787CA66A4BC2C&album_id=47053912",
         "url": "kgtrack_9C6B1E4D11764EAE83D787CA66A4BC2C",
         "lyric_url": "9C6B1E4D11764EAE83D787CA66A4BC2C",
-        "$$hashKey": "object:10804"
+        "$$hashKey": "object:10804",
+        "disabled": false
     }, {
         "id": "kgtrack_05F234FE4C1747C0345F8F669FD4B4EE",
         "title": "Star Unkind",
@@ -364,7 +565,8 @@
         "source_url": "http://www.kugou.com/song/#hash=05F234FE4C1747C0345F8F669FD4B4EE&album_id=50401958",
         "url": "kgtrack_05F234FE4C1747C0345F8F669FD4B4EE",
         "lyric_url": "05F234FE4C1747C0345F8F669FD4B4EE",
-        "$$hashKey": "object:9745"
+        "$$hashKey": "object:9745",
+        "disabled": false
     }, {
         "id": "kgtrack_CA306227962DE8C20B87AF7063346208",
         "title": "Star Unkind (网友自制)",
@@ -376,7 +578,8 @@
         "source_url": "http://www.kugou.com/song/#hash=CA306227962DE8C20B87AF7063346208&album_id=",
         "url": "kgtrack_CA306227962DE8C20B87AF7063346208",
         "lyric_url": "CA306227962DE8C20B87AF7063346208",
-        "$$hashKey": "object:9744"
+        "$$hashKey": "object:9744",
+        "disabled": false
     }, {
         "id": "netrack_410519534",
         "title": "Ticking",
@@ -401,7 +604,8 @@
         "source_url": "http://www.kugou.com/song/#hash=914EBCDD6E43831A49DD850CD3A2FC57&album_id=",
         "url": "kgtrack_914EBCDD6E43831A49DD850CD3A2FC57",
         "lyric_url": "914EBCDD6E43831A49DD850CD3A2FC57",
-        "$$hashKey": "object:3130"
+        "$$hashKey": "object:3130",
+        "disabled": false
     }, {
         "id": "netrack_1493816591",
         "title": "Italia e voi（Orginal Mix）",
@@ -412,7 +616,8 @@
         "source": "netease",
         "source_url": "http://music.163.com/#/song?id=1493816591",
         "img_url": "http://p4.music.126.net/0qWSese34XPiEcQGisPl3g==/109951165452334019.jpg",
-        "url": "netrack_1493816591"
+        "url": "netrack_1493816591",
+        "disabled": false
     }, {
         "id": "netrack_484058025",
         "title": "No Glory",
@@ -423,7 +628,8 @@
         "source": "netease",
         "source_url": "http://music.163.com/#/song?id=484058025",
         "img_url": "http://p4.music.126.net/-XiK3CI9-NntGZCN2F-BYA==/109951165217159829.jpg",
-        "url": "netrack_484058025"
+        "url": "netrack_484058025",
+        "disabled": false
     }, {
         "id": "netrack_1867691290",
         "title": "一念神魔 李信",
@@ -434,7 +640,8 @@
         "source": "netease",
         "source_url": "http://music.163.com/#/song?id=1867691290",
         "img_url": "http://p3.music.126.net/CPH-8sPN2Pz3UJkpagI0FA==/109951166530448182.jpg",
-        "url": "netrack_1867691290"
+        "url": "netrack_1867691290",
+        "disabled": false
     }, {
         "id": "netrack_1868168700",
         "title": "Ke Cap Gap Ba Gia",
@@ -445,7 +652,8 @@
         "source": "netease",
         "source_url": "http://music.163.com/#/song?id=1868168700",
         "img_url": "http://p3.music.126.net/9lp775ktPo4q2UjV70AufQ==/109951166530441493.jpg",
-        "url": "netrack_1868168700"
+        "url": "netrack_1868168700",
+        "disabled": false
     }, {
         "id": "netrack_548633609",
         "title": "CHINA-2",
@@ -456,7 +664,8 @@
         "source": "netease",
         "source_url": "http://music.163.com/#/song?id=548633609",
         "img_url": "http://p4.music.126.net/7r_73EopImEzFGfTPiHSmA==/109951166092295575.jpg",
-        "url": "netrack_548633609"
+        "url": "netrack_548633609",
+        "disabled": false
     }, {
         "id": "netrack_28830411",
         "title": "Sunburst",
@@ -467,7 +676,8 @@
         "source": "netease",
         "source_url": "http://music.163.com/#/song?id=28830411",
         "img_url": "http://p3.music.126.net/LElecUCZcF6JCf9SexafBA==/109951165358925857.jpg",
-        "url": "netrack_28830411"
+        "url": "netrack_28830411",
+        "disabled": false
     }, {
         "id": "netrack_33922813",
         "title": "Adventures",
@@ -478,7 +688,8 @@
         "source": "netease",
         "source_url": "http://music.163.com/#/song?id=33922813",
         "img_url": "http://p4.music.126.net/9KbYbCdn2MmDJ96MKzL2Yw==/109951163457139434.jpg",
-        "url": "netrack_33922813"
+        "url": "netrack_33922813",
+        "disabled": false
     }, {
         "id": "kgtrack_453797B42F49E96B6D6FEA8D89413956",
         "title": "Spring Day",
@@ -490,7 +701,8 @@
         "source_url": "http://www.kugou.com/song/#hash=453797B42F49E96B6D6FEA8D89413956&album_id=39396418",
         "url": "kgtrack_453797B42F49E96B6D6FEA8D89413956",
         "lyric_url": "453797B42F49E96B6D6FEA8D89413956",
-        "$$hashKey": "object:4312"
+        "$$hashKey": "object:4312",
+        "disabled": false
     }, {
         "id": "kgtrack_FD5695BB0E5040F8C1E0FF5722B39FB7",
         "title": "山海 (2018歌手第二季第9期现场)",
@@ -502,7 +714,8 @@
         "source_url": "http://www.kugou.com/song/#hash=FD5695BB0E5040F8C1E0FF5722B39FB7&album_id=",
         "url": "kgtrack_FD5695BB0E5040F8C1E0FF5722B39FB7",
         "lyric_url": "FD5695BB0E5040F8C1E0FF5722B39FB7",
-        "$$hashKey": "object:3228"
+        "$$hashKey": "object:3228",
+        "disabled": false
     }, {
         "id": "netrack_525239752",
         "title": "体面",
@@ -605,7 +818,8 @@
         "source_url": "http://www.kugou.com/song/#hash=8ED5119B21D3CB11F70993E407AF62E9&album_id=",
         "url": "kgtrack_8ED5119B21D3CB11F70993E407AF62E9",
         "lyric_url": "8ED5119B21D3CB11F70993E407AF62E9",
-        "$$hashKey": "object:41624"
+        "$$hashKey": "object:41624",
+        "disabled": false
     }, {
         "id": "kgtrack_24B746DAB94CCBD22832018AD22A6FE4",
         "title": "My Sunset (Original Mix)",
@@ -617,7 +831,8 @@
         "source_url": "http://www.kugou.com/song/#hash=24B746DAB94CCBD22832018AD22A6FE4&album_id=8571865",
         "url": "kgtrack_24B746DAB94CCBD22832018AD22A6FE4",
         "lyric_url": "24B746DAB94CCBD22832018AD22A6FE4",
-        "$$hashKey": "object:41623"
+        "$$hashKey": "object:41623",
+        "disabled": false
     }, {
         "id": "netrack_531040135",
         "title": "Come Back For You (Morgan Page Remix)",
@@ -837,7 +1052,8 @@
         "source_url": "http://www.kugou.com/song/#hash=6843833905472355AE6A221CAB8502DD&album_id=15142946",
         "url": "kgtrack_6843833905472355AE6A221CAB8502DD",
         "lyric_url": "6843833905472355AE6A221CAB8502DD",
-        "$$hashKey": "object:24931"
+        "$$hashKey": "object:24931",
+        "disabled": false
     }, {
         "id": "qqtrack_001Ep1bP1l4ou1",
         "title": "凉凉 (原唱: 杨宗纬|张碧晨)",
@@ -991,7 +1207,8 @@
         "source": "kugou",
         "source_url": "http://www.kugou.com/song/#hash=6CA867BC9D07E1A3CD7EB759D605D525&album_id=723772",
         "url": "kgtrack_6CA867BC9D07E1A3CD7EB759D605D525",
-        "lyric_url": "6CA867BC9D07E1A3CD7EB759D605D525"
+        "lyric_url": "6CA867BC9D07E1A3CD7EB759D605D525",
+        "disabled": false
     }, {
         "id": "qqtrack_004Uln1G2Aunqw",
         "title": "春娇与志明",
@@ -1171,7 +1388,8 @@
         "source_url": "http://www.kugou.com/song/#hash=6C9F5C2CB5EDF66477A728A60E3A42CA&album_id=13667313",
         "url": "kgtrack_6C9F5C2CB5EDF66477A728A60E3A42CA",
         "lyric_url": "6C9F5C2CB5EDF66477A728A60E3A42CA",
-        "$$hashKey": "object:18246"
+        "$$hashKey": "object:18246",
+        "disabled": false
     }, {
         "id": "netrack_1372580733",
         "title": "Katie Sky-Monsters(电音版)（苏以北 remix）",
@@ -1411,7 +1629,8 @@
         "source_url": "http://www.kugou.com/song/#hash=9D359CE4D78D92EA4586210C4187564B&album_id=",
         "url": "kgtrack_9D359CE4D78D92EA4586210C4187564B",
         "lyric_url": "9D359CE4D78D92EA4586210C4187564B",
-        "$$hashKey": "object:13371"
+        "$$hashKey": "object:13371",
+        "disabled": false
     }, {
         "id": "kgtrack_C124E4DEE7217D7D022B85AE0174EB83",
         "title": "Last Reunion (3D环绕版)",
@@ -1423,7 +1642,8 @@
         "source_url": "http://www.kugou.com/song/#hash=C124E4DEE7217D7D022B85AE0174EB83&album_id=",
         "url": "kgtrack_C124E4DEE7217D7D022B85AE0174EB83",
         "lyric_url": "C124E4DEE7217D7D022B85AE0174EB83",
-        "$$hashKey": "object:13005"
+        "$$hashKey": "object:13005",
+        "disabled": false
     }, {
         "id": "kgtrack_CDCF0A5A0503B6FF1982F8AC7D47EA9C",
         "title": "Breath and Life",
@@ -1435,7 +1655,8 @@
         "source_url": "http://www.kugou.com/song/#hash=CDCF0A5A0503B6FF1982F8AC7D47EA9C&album_id=",
         "url": "kgtrack_CDCF0A5A0503B6FF1982F8AC7D47EA9C",
         "lyric_url": "CDCF0A5A0503B6FF1982F8AC7D47EA9C",
-        "$$hashKey": "object:12538"
+        "$$hashKey": "object:12538",
+        "disabled": false
     }, {
         "id": "kgtrack_7625F143BB71496E44F927BB811A1354",
         "title": "Симпа (王玉萌片段)",
@@ -1447,7 +1668,8 @@
         "source_url": "http://www.kugou.com/song/#hash=7625F143BB71496E44F927BB811A1354&album_id=42382870",
         "url": "kgtrack_7625F143BB71496E44F927BB811A1354",
         "lyric_url": "7625F143BB71496E44F927BB811A1354",
-        "$$hashKey": "object:12159"
+        "$$hashKey": "object:12159",
+        "disabled": false
     }, {
         "id": "netrack_401246013",
         "title": "Edge",
@@ -1472,7 +1694,8 @@
         "source_url": "http://www.kugou.com/song/#hash=522EA515EAB77F4164DC4873ABB353B7&album_id=16824164",
         "url": "kgtrack_522EA515EAB77F4164DC4873ABB353B7",
         "lyric_url": "522EA515EAB77F4164DC4873ABB353B7",
-        "$$hashKey": "object:11780"
+        "$$hashKey": "object:11780",
+        "disabled": false
     }, {
         "id": "netrack_1840699975",
         "title": "铠甲勇士插曲（通往胜利）抖音钢琴版",
@@ -1497,7 +1720,8 @@
         "source_url": "http://www.kugou.com/song/#hash=DB26904ABB0286BF586F94DA9B87B629&album_id=615110",
         "url": "kgtrack_DB26904ABB0286BF586F94DA9B87B629",
         "lyric_url": "DB26904ABB0286BF586F94DA9B87B629",
-        "$$hashKey": "object:10628"
+        "$$hashKey": "object:10628",
+        "disabled": false
     }, {
         "id": "netrack_1381930398",
         "title": "赤伶",
@@ -1521,7 +1745,8 @@
         "source": "kugou",
         "source_url": "http://www.kugou.com/song/#hash=757B465D7942BAB4F124A4E6F57EB7FF&album_id=8909475",
         "url": "kgtrack_757B465D7942BAB4F124A4E6F57EB7FF",
-        "lyric_url": "757B465D7942BAB4F124A4E6F57EB7FF"
+        "lyric_url": "757B465D7942BAB4F124A4E6F57EB7FF",
+        "disabled": false
     }, {
         "id": "kgtrack_6ED10826F8F90F6493968EBCEB373FC5",
         "title": "Play",
@@ -1533,7 +1758,8 @@
         "source_url": "http://www.kugou.com/song/#hash=6ED10826F8F90F6493968EBCEB373FC5&album_id=34895955",
         "url": "kgtrack_6ED10826F8F90F6493968EBCEB373FC5",
         "lyric_url": "6ED10826F8F90F6493968EBCEB373FC5",
-        "$$hashKey": "object:5915"
+        "$$hashKey": "object:5915",
+        "disabled": false
     }, {
         "id": "kgtrack_9A221C84DA3BF3FA6978DBC0DDB9A1C9",
         "title": "Time Back+The Right Path+幻昼+Astronomia (钢琴版)",
@@ -1545,7 +1771,8 @@
         "source_url": "http://www.kugou.com/song/#hash=9A221C84DA3BF3FA6978DBC0DDB9A1C9&album_id=37088079",
         "url": "kgtrack_9A221C84DA3BF3FA6978DBC0DDB9A1C9",
         "lyric_url": "9A221C84DA3BF3FA6978DBC0DDB9A1C9",
-        "$$hashKey": "object:4277"
+        "$$hashKey": "object:4277",
+        "disabled": false
     }, {
         "id": "netrack_28907016",
         "title": "Illusionary Daytime",
@@ -1570,7 +1797,8 @@
         "source_url": "http://www.kugou.com/song/#hash=5BE0E06DB8F27D24CE08F99B5C07EA47&album_id=",
         "url": "kgtrack_5BE0E06DB8F27D24CE08F99B5C07EA47",
         "lyric_url": "5BE0E06DB8F27D24CE08F99B5C07EA47",
-        "$$hashKey": "object:4423"
+        "$$hashKey": "object:4423",
+        "disabled": false
     }, {
         "id": "kgtrack_7C994EB4CC0D53B827DD705F02AD8ABB",
         "title": "Time Back",
@@ -1582,7 +1810,8 @@
         "source_url": "http://www.kugou.com/song/#hash=7C994EB4CC0D53B827DD705F02AD8ABB&album_id=",
         "url": "kgtrack_7C994EB4CC0D53B827DD705F02AD8ABB",
         "lyric_url": "7C994EB4CC0D53B827DD705F02AD8ABB",
-        "$$hashKey": "object:4278"
+        "$$hashKey": "object:4278",
+        "disabled": false
     }, {
         "id": "kgtrack_5AF6B0AEBF1CA0856F7E73027E26D544",
         "title": "丁香花 (三步踩版)",
@@ -1594,7 +1823,8 @@
         "source_url": "http://www.kugou.com/song/#hash=5AF6B0AEBF1CA0856F7E73027E26D544&album_id=",
         "url": "kgtrack_5AF6B0AEBF1CA0856F7E73027E26D544",
         "lyric_url": "5AF6B0AEBF1CA0856F7E73027E26D544",
-        "$$hashKey": "object:2533"
+        "$$hashKey": "object:2533",
+        "disabled": false
     }, {
         "id": "netrack_1832377149",
         "title": "Ơ Sao Bé Không Lak (抖音版)",
@@ -1682,7 +1912,8 @@
         "source_url": "http://www.kugou.com/song/#hash=64F30F75FD64EB10ABFA776E2B8233F9&album_id=4152443",
         "img_url": "",
         "url": "xmtrack_64F30F75FD64EB10ABFA776E2B8233F9",
-        "lyric_url": "64F30F75FD64EB10ABFA776E2B8233F9"
+        "lyric_url": "64F30F75FD64EB10ABFA776E2B8233F9",
+        "disabled": false
     }, {
         "id": "netrack_1407970468",
         "title": "大雪",
@@ -1770,7 +2001,8 @@
         "source_url": "http://www.kugou.com/song/#hash=C97EA8B61F5E9DBCD4C6322E36E13259&album_id=",
         "url": "kgtrack_C97EA8B61F5E9DBCD4C6322E36E13259",
         "lyric_url": "C97EA8B61F5E9DBCD4C6322E36E13259",
-        "$$hashKey": "object:4876"
+        "$$hashKey": "object:4876",
+        "disabled": false
     }, {
         "id": "netrack_1834029993",
         "title": "Wolves",
@@ -1834,7 +2066,8 @@
         "source_url": "http://www.kugou.com/song/#hash=19457EC7DE5E7C66A4AD54992CD8D860&album_id=19326191",
         "url": "kgtrack_19457EC7DE5E7C66A4AD54992CD8D860",
         "lyric_url": "19457EC7DE5E7C66A4AD54992CD8D860",
-        "$$hashKey": "object:16107"
+        "$$hashKey": "object:16107",
+        "disabled": false
     }, {
         "id": "kgtrack_FD16E626258D9C4B3EBCDFA00A910DC5",
         "title": "Man At Arms",
@@ -1846,7 +2079,8 @@
         "source_url": "http://www.kugou.com/song/#hash=FD16E626258D9C4B3EBCDFA00A910DC5&album_id=582140",
         "url": "kgtrack_FD16E626258D9C4B3EBCDFA00A910DC5",
         "lyric_url": "FD16E626258D9C4B3EBCDFA00A910DC5",
-        "$$hashKey": "object:15467"
+        "$$hashKey": "object:15467",
+        "disabled": false
     }, {
         "id": "kgtrack_BE364D2C5CF1500676A8BE0FD7AA2FE0",
         "title": "Something Just Like This (Megamix)",
@@ -1858,7 +2092,8 @@
         "source_url": "http://www.kugou.com/song/#hash=BE364D2C5CF1500676A8BE0FD7AA2FE0&album_id=14720223",
         "url": "kgtrack_BE364D2C5CF1500676A8BE0FD7AA2FE0",
         "lyric_url": "BE364D2C5CF1500676A8BE0FD7AA2FE0",
-        "$$hashKey": "object:12559"
+        "$$hashKey": "object:12559",
+        "disabled": false
     }, {
         "id": "kgtrack_19EBD0FE77D262127B7A921F32A0EBEC",
         "title": "Star Sky",
@@ -1869,7 +2104,8 @@
         "source": "kugou",
         "source_url": "http://www.kugou.com/song/#hash=19EBD0FE77D262127B7A921F32A0EBEC&album_id=16283338",
         "url": "kgtrack_19EBD0FE77D262127B7A921F32A0EBEC",
-        "lyric_url": "19EBD0FE77D262127B7A921F32A0EBEC"
+        "lyric_url": "19EBD0FE77D262127B7A921F32A0EBEC",
+        "disabled": false
     }, {
         "id": "kgtrack_8A38B231C43029953DAC00A83161D0B9",
         "title": "Believe AMG (Radio Edit)",
@@ -1881,7 +2117,8 @@
         "source_url": "http://www.kugou.com/song/#hash=8A38B231C43029953DAC00A83161D0B9&album_id=",
         "url": "kgtrack_8A38B231C43029953DAC00A83161D0B9",
         "lyric_url": "8A38B231C43029953DAC00A83161D0B9",
-        "$$hashKey": "object:9770"
+        "$$hashKey": "object:9770",
+        "disabled": false
     }, {
         "id": "netrack_480516046",
         "title": "Illusion",
@@ -2049,7 +2286,8 @@
         "source_url": "http://www.kugou.com/song/#hash=293178A043290F378A9D6DAAC7E9CB3D&album_id=",
         "url": "kgtrack_293178A043290F378A9D6DAAC7E9CB3D",
         "lyric_url": "293178A043290F378A9D6DAAC7E9CB3D",
-        "$$hashKey": "object:5351"
+        "$$hashKey": "object:5351",
+        "disabled": false
     }, {
         "id": "kgtrack_9E1B92519C48BDCF52EBCD9B202BD813",
         "title": "뱅뱅뱅 (BANG BANG BANG)",
@@ -2061,7 +2299,8 @@
         "source_url": "http://www.kugou.com/song/#hash=9E1B92519C48BDCF52EBCD9B202BD813&album_id=",
         "url": "kgtrack_9E1B92519C48BDCF52EBCD9B202BD813",
         "lyric_url": "9E1B92519C48BDCF52EBCD9B202BD813",
-        "$$hashKey": "object:5067"
+        "$$hashKey": "object:5067",
+        "disabled": false
     }, {
         "id": "netrack_1297841",
         "title": "Love The Way You Lie",
@@ -2125,7 +2364,8 @@
         "source_url": "http://www.kugou.com/song/#hash=57A8F74F05B245C230540699AEDE2849&album_id=",
         "url": "kgtrack_57A8F74F05B245C230540699AEDE2849",
         "lyric_url": "57A8F74F05B245C230540699AEDE2849",
-        "$$hashKey": "object:2622"
+        "$$hashKey": "object:2622",
+        "disabled": false
     }, {
         "id": "netrack_31311695",
         "title": "Shots (Broiler Remix)",
@@ -2386,11 +2626,35 @@
         "url": "netrack_1426649237",
         "disabled": false,
         "$$hashKey": "object:125"
+    }, {
+        "id": "qqtrack_003QWDUY3858TZ",
+        "title": "不染 (钢琴版)",
+        "artist": "落葵",
+        "artist_id": "qqartist_000csfhL4DcKeS",
+        "album": "山有木兮木有枝，心悦君兮君不知",
+        "album_id": "qqalbum_001DikZQ1wrr3d",
+        "img_url": "https://y.gtimg.cn/music/photo_new/T002R300x300M000001DikZQ1wrr3d.jpg",
+        "source": "qq",
+        "source_url": "https://y.qq.com/#type=song&mid=003QWDUY3858TZ&tpl=yqq_song_detail",
+        "disabled": false
+    }, {
+        "id": "bitrack_13526",
+        "title": "unravel（东京食尸鬼）",
+        "artist": "泠鸢yousa",
+        "artist_id": "biartist_282994",
+        "source": "bilibili",
+        "source_url": "https://www.bilibili.com/audio/au13526",
+        "img_url": "http://i0.hdslb.com/bfs/music/0802f81c469c5365f39171458092d0e32ad26828.jpg",
+        "url": 13526,
+        "lyric_url": "http://i0.hdslb.com/bfs/music/151142058313526.lrc"
     }],
     "enable_global_shortcut": true,
     "enable_lyric_floating_window": false,
+    "enable_nowplaying_bitrate": true,
+    "enable_nowplaying_cover_background": true,
+    "enable_nowplaying_platform": true,
     "language": "zh_CN",
-    "lastfmtoken": "l6-mL6JLpOGDZIXbyjr5UVGLoEKLz4SW",
+    "lastfmtoken": "4sMNdpkvqbrHoXhEoEaasmJ7zdaUrwWr",
     "myplaylist_6cc62918-72fa-7a5d-a4af-dc82201b54ff": {
         "is_mine": 1,
         "info": {
@@ -2400,6 +2664,209 @@
             "source_url": ""
         },
         "tracks": [{
+            "id": "qqtrack_004CMDDE1TLnYH",
+            "title": "蓝银色的海",
+            "artist": "张碧晨",
+            "artist_id": "qqartist_0003ZpE43ypssl",
+            "album": "蓝银色的海",
+            "album_id": "qqalbum_0024olx61WzhOx",
+            "img_url": "http://imgcache.qq.com/music/photo/mid_album_300/O/x/0024olx61WzhOx.jpg",
+            "source": "qq",
+            "source_url": "http://y.qq.com/#type=song&mid=004CMDDE1TLnYH&tpl=yqq_song_detail",
+            "url": "qqtrack_004CMDDE1TLnYH",
+            "disabled": false,
+            "$$hashKey": "object:7453"
+        }, {
+            "id": "netrack_1887457610",
+            "title": "失去才懂<纯音乐>",
+            "artist": "墨小天",
+            "artist_id": "neartist_47972509",
+            "album": "念旧的人",
+            "album_id": "nealbum_132464426",
+            "source": "netease",
+            "source_url": "http://music.163.com/#/song?id=1887457610",
+            "img_url": "http://p1.music.126.net/2yRG9KCRh9OF83O871P-Vg==/109951166332780166.jpg",
+            "url": "netrack_1887457610",
+            "disabled": false,
+            "$$hashKey": "object:4515"
+        }, {
+            "id": "netrack_1398909242",
+            "title": "她的微笑 (original Mix)",
+            "artist": "阳山伟伟",
+            "artist_id": "neartist_12641107",
+            "album": "她的微笑 (original Mix)",
+            "album_id": "nealbum_82705987",
+            "source": "netease",
+            "source_url": "http://music.163.com/#/song?id=1398909242",
+            "img_url": "http://p2.music.126.net/pjyIzsPu5czr-jvRRGF4GQ==/109951164445982737.jpg",
+            "url": "netrack_1398909242",
+            "disabled": false,
+            "$$hashKey": "object:4269"
+        }, {
+            "id": "netrack_1345395655",
+            "title": "穿越时空的思念 (DiESi Remix)",
+            "artist": "DiESi",
+            "artist_id": "neartist_12001195",
+            "album": "穿越时空的思念",
+            "album_id": "nealbum_75495254",
+            "source": "netease",
+            "source_url": "http://music.163.com/#/song?id=1345395655",
+            "img_url": "http://p1.music.126.net/Wc5RGwkyzCldRQK9oD9ODA==/109951163854792864.jpg",
+            "url": "netrack_1345395655",
+            "disabled": false,
+            "$$hashKey": "object:3476"
+        }, {
+            "id": "netrack_3932159",
+            "title": "You",
+            "artist": "Approaching Nirvana",
+            "artist_id": "neartist_86884",
+            "album": "YOU",
+            "album_id": "nealbum_95457745",
+            "source": "netease",
+            "source_url": "http://music.163.com/#/song?id=3932159",
+            "img_url": "http://p2.music.126.net/C71zjT6CpHzqcRFObJO4Rg==/109951165319954700.jpg",
+            "url": "netrack_3932159",
+            "disabled": false,
+            "$$hashKey": "object:3231"
+        }, {
+            "id": "netrack_468176711",
+            "title": "城南花已开",
+            "artist": "三亩地",
+            "artist_id": "neartist_1044144",
+            "album": "城南花已开",
+            "album_id": "nealbum_35310694",
+            "source": "netease",
+            "source_url": "http://music.163.com/#/song?id=468176711",
+            "img_url": "http://p1.music.126.net/i-7ktILRPImJ0NwiH8DABg==/109951162885959979.jpg",
+            "url": "netrack_468176711",
+            "disabled": false,
+            "$$hashKey": "object:3098"
+        }, {
+            "id": "netrack_28892408",
+            "title": "我的天空",
+            "artist": "南征北战NZBZ",
+            "artist_id": "neartist_189873",
+            "album": "青春派 电影原声带",
+            "album_id": "nealbum_2630008",
+            "source": "netease",
+            "source_url": "http://music.163.com/#/song?id=28892408",
+            "img_url": "http://p1.music.126.net/v0LaYOX44ZiJjC1bzZbKOg==/109951163884032084.jpg",
+            "url": "netrack_28892408",
+            "disabled": false
+        }, {
+            "id": "kgtrack_237A264315ECEA69F9A23FB5D36E346A",
+            "title": "一马飞歌到草原",
+            "artist": "张冬玲",
+            "artist_id": "kgartist_7083",
+            "album": "",
+            "album_id": "kgalbum_",
+            "source": "kugou",
+            "source_url": "http://www.kugou.com/song/#hash=237A264315ECEA69F9A23FB5D36E346A&album_id=",
+            "url": "kgtrack_237A264315ECEA69F9A23FB5D36E346A",
+            "lyric_url": "237A264315ECEA69F9A23FB5D36E346A",
+            "$$hashKey": "object:8810"
+        }, {
+            "id": "netrack_407450223",
+            "title": "爸爸妈妈",
+            "artist": "李荣浩",
+            "artist_id": "neartist_4292",
+            "album": "有理想",
+            "album_id": "nealbum_34567265",
+            "source": "netease",
+            "source_url": "http://music.163.com/#/song?id=407450223",
+            "img_url": "http://p1.music.126.net/e-Uc6W3Kug-HFHJ5nvCUPg==/109951166562828988.jpg",
+            "url": "netrack_407450223",
+            "disabled": false,
+            "$$hashKey": "object:7759"
+        }, {
+            "id": "netrack_165353",
+            "title": "在路上",
+            "artist": "瓦其依合",
+            "artist_id": "neartist_5539",
+            "album": "黑鹰之梦",
+            "album_id": "nealbum_16609",
+            "source": "netease",
+            "source_url": "http://music.163.com/#/song?id=165353",
+            "img_url": "http://p2.music.126.net/XX2gJnI5lGQIxQT0Wz9NAg==/94558000000902.jpg",
+            "url": "netrack_165353",
+            "disabled": false,
+            "$$hashKey": "object:15738"
+        }, {
+            "id": "kgtrack_C0652FDFB4CB14AEA48F09BFFB7DCDD2",
+            "title": "Faded (2k21版)",
+            "artist": "野马",
+            "artist_id": "kgartist_5460686",
+            "album": "我在黑白照片里寻找彩虹",
+            "album_id": "kgalbum_42152765",
+            "source": "kugou",
+            "source_url": "http://www.kugou.com/song/#hash=C0652FDFB4CB14AEA48F09BFFB7DCDD2&album_id=42152765",
+            "url": "kgtrack_C0652FDFB4CB14AEA48F09BFFB7DCDD2",
+            "lyric_url": "C0652FDFB4CB14AEA48F09BFFB7DCDD2",
+            "$$hashKey": "object:4433"
+        }, {
+            "id": "netrack_1803443499",
+            "title": "Faded ( Keyfm RMX )",
+            "artist": "Keyfm",
+            "artist_id": "neartist_34393359",
+            "album": "Faded ( Keyfm RMX )",
+            "album_id": "nealbum_120269145",
+            "source": "netease",
+            "source_url": "http://music.163.com/#/song?id=1803443499",
+            "img_url": "http://p1.music.126.net/i8C8unKlOoLD02orQu8jDg==/109951165532574473.jpg",
+            "url": "netrack_1803443499",
+            "disabled": false,
+            "$$hashKey": "object:4142"
+        }, {
+            "id": "kgtrack_546F6B265C4ED18C4F39136FEB40192E",
+            "title": "Spartanos (片段)",
+            "artist": "网络歌手",
+            "artist_id": "kgartist_86956",
+            "album": "",
+            "album_id": "kgalbum_",
+            "source": "kugou",
+            "source_url": "http://www.kugou.com/song/#hash=546F6B265C4ED18C4F39136FEB40192E&album_id=",
+            "url": "kgtrack_546F6B265C4ED18C4F39136FEB40192E",
+            "lyric_url": "546F6B265C4ED18C4F39136FEB40192E",
+            "$$hashKey": "object:10675"
+        }, {
+            "id": "netrack_512376326",
+            "title": "阿衣莫",
+            "artist": "阿吉太组合",
+            "artist_id": "neartist_12031075",
+            "album": "阿衣莫",
+            "album_id": "nealbum_36530066",
+            "source": "netease",
+            "source_url": "http://music.163.com/#/song?id=512376326",
+            "img_url": "http://p2.music.126.net/T8NN9mGSxJL8GhtCpJjL7w==/109951166336905015.jpg",
+            "url": "netrack_512376326",
+            "disabled": false,
+            "$$hashKey": "object:7905"
+        }, {
+            "id": "kgtrack_563BE85C8FC1E5FE8DA2B43DB397732F",
+            "title": "兰亭序 (片段)",
+            "artist": "小乐哥(王唯乐)",
+            "artist_id": "kgartist_823674",
+            "album": "",
+            "album_id": "kgalbum_",
+            "source": "kugou",
+            "source_url": "http://www.kugou.com/song/#hash=563BE85C8FC1E5FE8DA2B43DB397732F&album_id=",
+            "url": "kgtrack_563BE85C8FC1E5FE8DA2B43DB397732F",
+            "lyric_url": "563BE85C8FC1E5FE8DA2B43DB397732F",
+            "$$hashKey": "object:6619"
+        }, {
+            "id": "netrack_1878815188",
+            "title": "Good Time",
+            "artist": "Owl City",
+            "artist_id": "neartist_40859",
+            "album": "Family Friendly Summer Hits",
+            "album_id": "nealbum_133358085",
+            "source": "netease",
+            "source_url": "http://music.163.com/#/song?id=1878815188",
+            "img_url": "http://p2.music.126.net/-RxMP9fw2BidKc5-_H5njw==/109951166421345001.jpg",
+            "url": "netrack_1878815188",
+            "disabled": false,
+            "$$hashKey": "object:4739"
+        }, {
             "id": "netrack_461544312",
             "title": "All Time Low",
             "artist": "Kurt Hugo Schneider",
@@ -2707,17 +3174,6 @@
             "url": "netrack_3934578",
             "disabled": false,
             "$$hashKey": "object:14650"
-        }, {
-            "id": "netrack_512640295",
-            "title": "Star Unkind (Lanfranchi & Farina Remix)",
-            "artist": "2Someone",
-            "artist_id": "neartist_12835852",
-            "album": "Star Unkind",
-            "album_id": "nealbum_36545363",
-            "source": "netease",
-            "source_url": "http://music.163.com/#/song?id=512640295",
-            "img_url": "http://p4.music.126.net/lUkMyaM7i_XhlyyafcQT0Q==/18141941859131607.jpg",
-            "url": "netrack_512640295"
         }, {
             "id": "netrack_1441860073",
             "title": "Morsmordre",
@@ -4833,6 +5289,18 @@
             "source_url": ""
         },
         "tracks": [{
+            "id": "kgtrack_B6680C750AB6BFEA41B76017E8F9BE17",
+            "title": "Spartanos",
+            "artist": "铁汁哥哥",
+            "artist_id": "kgartist_0",
+            "album": "",
+            "album_id": "kgalbum_",
+            "source": "kugou",
+            "source_url": "http://www.kugou.com/song/#hash=B6680C750AB6BFEA41B76017E8F9BE17&album_id=",
+            "url": "kgtrack_B6680C750AB6BFEA41B76017E8F9BE17",
+            "lyric_url": "B6680C750AB6BFEA41B76017E8F9BE17",
+            "$$hashKey": "object:10674"
+        }, {
             "id": "netrack_423228325",
             "title": "Closer",
             "artist": "The Chainsmokers",
@@ -5003,8 +5471,8 @@
     },
     "player-settings": {
         "playmode": 0,
-        "nowplaying_track_id": "netrack_1868168700",
-        "volume": 7.857142857142857
+        "nowplaying_track_id": "bitrack_13526",
+        "volume": 28.57142857142857
     },
     "playerlists": ["myplaylist_6cc62918-72fa-7a5d-a4af-dc82201b54ff", "myplaylist_9c4d8140-585b-9619-5fc1-2c04f3f9d61f", "myplaylist_92e235fd-4fb8-3ca2-785e-6a01d9f6f98f"],
     "theme": "white"
